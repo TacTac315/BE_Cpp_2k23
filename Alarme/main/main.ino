@@ -1,18 +1,26 @@
 #include "Wifi.hpp"
 #include "Buzzer.hpp"
 #include "Sensor.hpp"
+#include "Mail.hpp"
+
+int delayTime = 1000;
+Wifi wifi;
+Mail mail_alerte;
 void setup()
 {
-  // put your setup code here, to run once:
   Serial.begin(115200);
-  Wifi wifi;
   wifi.changeSsid("OPPO Find X2 Lite");
   wifi.changePassword("grosyul315/");
   wifi.connect(10000);
-  wifi.printStatus();
+  mail_alerte.sendMail();
+
 }
 
 void loop()
 {
-  // put your main code here, to run repeatedly:
+  delay(delayTime);
+  Serial.println("###########################");
+  Serial.println("Status des capteurs : ");
+  wifi.afficheStatus();
 }
+

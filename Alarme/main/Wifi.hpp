@@ -13,7 +13,8 @@ public:
     bool isConnected();
     void changeSsid(const char *ssid);
     void changePassword(const char *password);
-    void printStatus();
+    const char* Get_SSID();
+    void afficheStatus();
 
 private:
     const char *ssid = new char[MAX_SSID_LENGHT];

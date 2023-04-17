@@ -44,17 +44,20 @@ void Wifi::changePassword(const char *password)
 {
     this->password = password;
 }
-void Wifi::printStatus()
+
+const char *Wifi::Get_SSID()
 {
-    int delai = 500;
-    while (1)
+    return this->ssid;
+}
+
+void Wifi::afficheStatus()
+{
+    if (isConnected())
     {
-        if (delai == 500)
-        {
-            Serial.print("Status: ");
-            Serial.println(WiFi.status());
-            delai = 0;
-        }
+        Serial.println("Status Wifi : connecté");
     }
-    delai++;
+    else
+    {
+        Serial.println("Status Wifi : non connecté !");
+    }
 }
