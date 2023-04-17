@@ -19,7 +19,7 @@ void setup()
 void loop()
 {
   delay(delayTime);
-  Serial.println("###########################");
+  Serial.println("############################");
   Serial.println("Status des capteurs : ");
   wifi.afficheStatus();
 }

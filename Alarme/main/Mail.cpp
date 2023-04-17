@@ -28,5 +28,8 @@ void Mail::sendMail() {
   }
   if (!MailClient.sendMail(&smtp, &message)) {
     Serial.println("Error sending Email, " + smtp.errorReason());
+  }else
+  {
+    Serial.println("Mail envoyé ! ");
   }
 }
