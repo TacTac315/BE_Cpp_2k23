@@ -8,7 +8,7 @@ class Bouton : public Sensor
     int pinBouton;
     public:
     Bouton();
-    ~Bouton();
+    //~Bouton();
     virtual void init();
     int Get_state_sensor();
     virtual int Get_pin();

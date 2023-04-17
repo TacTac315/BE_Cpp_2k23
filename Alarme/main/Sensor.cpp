@@ -1,8 +1,8 @@
 #include "Sensor.hpp"
-
+#include <ESP8266WiFi.h>
 void Sensor::init()
 {
-    //pinMode(pinBouton, OUTPUT);
+    pinMode(pinSensor, OUTPUT);
 }
 
 int Sensor::Get_pin()
@@ -12,6 +12,6 @@ int Sensor::Get_pin()
 
 int Sensor::Get_state_sensor()
 {
-    //return digitalRead(Get_pin());
-    return 0;
+    return digitalRead(Get_pin());
+    
 }
