@@ -1,18 +1,22 @@
 #include "Buzzer.hpp"
+#include <ESP8266WiFi.h>
 Buzzer::Buzzer()
 {
-    pinMotion=14;
+    pinBuzzer=D5;
     init();
 }
 void Buzzer::init()
 {
-    ///pinMode(pinBouton, OUTPUT);
+   pinMode(pinBuzzer, OUTPUT);
 }
 int Buzzer::Get_pin()
 {
-    return pinMotion;
+    return pinBuzzer;
 }
 void Buzzer::Buzz()
 {
-    //DigitalWrite(Get_pin(),HIGH);
+ 
+    tone(Get_pin(),500);
+    delay(800);
+    noTone(Get_pin());
 }

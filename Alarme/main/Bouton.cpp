@@ -1,13 +1,15 @@
 #include "Bouton.hpp"
+#include <ESP8266WiFi.h>
 Bouton::Bouton()
 {
-    pinBouton = 11;
+    pinBouton = D6;
     init();
-};
+    state_bouton=0;
+}
 
 void Bouton::init()
 {
-    //pinMode(pinBouton, OUTPUT);
+    pinMode(pinBouton, OUTPUT);
 }
 
 int Bouton::Get_pin()
@@ -17,6 +19,6 @@ int Bouton::Get_pin()
 
 int Bouton::Get_state_sensor()
 {
-    //return digitalRead(Get_pin());
-    return 0;
+    
+    return digitalRead(Get_pin());
 }

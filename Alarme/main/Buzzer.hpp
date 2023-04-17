@@ -1,12 +1,14 @@
 #ifndef DEF_BUZZER
 #define DEF_BUZZER
-class Buzzer
+#include "Sensor.hpp"
+
+class Buzzer :public  Sensor
 {
     private:
-    int pinMotion;
+    int pinBuzzer;
     public:
     Buzzer();
-    ~Buzzer();
+   // ~Buzzer();
     virtual void init();
     virtual int Get_pin();
     void Buzz();
