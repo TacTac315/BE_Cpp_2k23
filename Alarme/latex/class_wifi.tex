@@ -1,0 +1,167 @@
+\hypertarget{class_wifi}{}\doxysection{Wifi Class Reference}
+\label{class_wifi}\index{Wifi@{Wifi}}
+
+
+Class to manage the wifi.  
+
+
+
+
+{\ttfamily \#include $<$Wifi.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wifi_a63b40a234377f5927d2d34d67826a010}{Wifi}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_wifi}{Wifi}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wifi_af9c0bb40082e1b5dd2907be907b94418}{$\sim$\+Wifi}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_wifi}{Wifi}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wifi_a69dafc5d74ccbac021ee6aa16c64c428}{connect}} (int timeout)
+\begin{DoxyCompactList}\small\item\em Connect to the wifi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wifi_a231c52fc7b58fb4d3c4819258e2405da}{disconnect}} ()
+\begin{DoxyCompactList}\small\item\em Disconnect from the wifi. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_wifi_a51b2ba0dc0bc3f092daddf3f91981ec1}{is\+Connected}} ()
+\begin{DoxyCompactList}\small\item\em Check if the wifi is connected. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wifi_adaef2ddc2f628d44619c3aa7fe878800}{change\+Ssid}} (const char $\ast$ssid)
+\begin{DoxyCompactList}\small\item\em Change the ssid. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wifi_ae462c3bccfdfed707cf05941a64e2f0f}{change\+Password}} (const char $\ast$password)
+\begin{DoxyCompactList}\small\item\em Change the password. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{class_wifi_a6b4650470be3a096ec9b628921cd6a17}{Get\+\_\+\+SSID}} ()
+\begin{DoxyCompactList}\small\item\em Get the SSID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wifi_a5a13fd59e6569877ee56db7ddd336d91}{affiche\+Status}} ()
+\begin{DoxyCompactList}\small\item\em Get the status of the wifi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class to manage the wifi. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_wifi_a63b40a234377f5927d2d34d67826a010}\label{class_wifi_a63b40a234377f5927d2d34d67826a010}} 
+\index{Wifi@{Wifi}!Wifi@{Wifi}}
+\index{Wifi@{Wifi}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{Wifi()}{Wifi()}}
+{\footnotesize\ttfamily Wifi\+::\+Wifi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_wifi}{Wifi}} object. 
+
+\mbox{\Hypertarget{class_wifi_af9c0bb40082e1b5dd2907be907b94418}\label{class_wifi_af9c0bb40082e1b5dd2907be907b94418}} 
+\index{Wifi@{Wifi}!````~Wifi@{$\sim$Wifi}}
+\index{````~Wifi@{$\sim$Wifi}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{$\sim$Wifi()}{~Wifi()}}
+{\footnotesize\ttfamily Wifi\+::$\sim$\+Wifi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_wifi}{Wifi}} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wifi_a5a13fd59e6569877ee56db7ddd336d91}\label{class_wifi_a5a13fd59e6569877ee56db7ddd336d91}} 
+\index{Wifi@{Wifi}!afficheStatus@{afficheStatus}}
+\index{afficheStatus@{afficheStatus}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{afficheStatus()}{afficheStatus()}}
+{\footnotesize\ttfamily void Wifi\+::affiche\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the status of the wifi. 
+
+\begin{DoxyReturn}{Returns}
+true if connected 
+
+false if not connected 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wifi_ae462c3bccfdfed707cf05941a64e2f0f}\label{class_wifi_ae462c3bccfdfed707cf05941a64e2f0f}} 
+\index{Wifi@{Wifi}!changePassword@{changePassword}}
+\index{changePassword@{changePassword}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{changePassword()}{changePassword()}}
+{\footnotesize\ttfamily void Wifi\+::change\+Password (\begin{DoxyParamCaption}\item[{const char $\ast$}]{password }\end{DoxyParamCaption})}
+
+
+
+Change the password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em password} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wifi_adaef2ddc2f628d44619c3aa7fe878800}\label{class_wifi_adaef2ddc2f628d44619c3aa7fe878800}} 
+\index{Wifi@{Wifi}!changeSsid@{changeSsid}}
+\index{changeSsid@{changeSsid}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{changeSsid()}{changeSsid()}}
+{\footnotesize\ttfamily void Wifi\+::change\+Ssid (\begin{DoxyParamCaption}\item[{const char $\ast$}]{ssid }\end{DoxyParamCaption})}
+
+
+
+Change the ssid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ssid} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wifi_a69dafc5d74ccbac021ee6aa16c64c428}\label{class_wifi_a69dafc5d74ccbac021ee6aa16c64c428}} 
+\index{Wifi@{Wifi}!connect@{connect}}
+\index{connect@{connect}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{connect()}{connect()}}
+{\footnotesize\ttfamily void Wifi\+::connect (\begin{DoxyParamCaption}\item[{int}]{timeout }\end{DoxyParamCaption})}
+
+
+
+Connect to the wifi. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em timeout} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wifi_a231c52fc7b58fb4d3c4819258e2405da}\label{class_wifi_a231c52fc7b58fb4d3c4819258e2405da}} 
+\index{Wifi@{Wifi}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{disconnect()}{disconnect()}}
+{\footnotesize\ttfamily void Wifi\+::disconnect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Disconnect from the wifi. 
+
+\mbox{\Hypertarget{class_wifi_a6b4650470be3a096ec9b628921cd6a17}\label{class_wifi_a6b4650470be3a096ec9b628921cd6a17}} 
+\index{Wifi@{Wifi}!Get\_SSID@{Get\_SSID}}
+\index{Get\_SSID@{Get\_SSID}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{Get\_SSID()}{Get\_SSID()}}
+{\footnotesize\ttfamily const char $\ast$ Wifi\+::\+Get\+\_\+\+SSID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the SSID. 
+
+\begin{DoxyReturn}{Returns}
+const char$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wifi_a51b2ba0dc0bc3f092daddf3f91981ec1}\label{class_wifi_a51b2ba0dc0bc3f092daddf3f91981ec1}} 
+\index{Wifi@{Wifi}!isConnected@{isConnected}}
+\index{isConnected@{isConnected}!Wifi@{Wifi}}
+\doxysubsubsection{\texorpdfstring{isConnected()}{isConnected()}}
+{\footnotesize\ttfamily bool Wifi\+::is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Check if the wifi is connected. 
+
+\begin{DoxyReturn}{Returns}
+true if connected 
+
+false if not connected 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+main/Wifi.\+hpp\item 
+main/Wifi.\+cpp\end{DoxyCompactItemize}

@@ -9,7 +9,7 @@ Motion::Motion()
 }
 void Motion::init()
 {
-    pinMode(pinMotion, OUTPUT);
+    pinMode(pinMotion, INPUT);
 }
 int Motion::Get_pin()
 {
@@ -21,19 +21,6 @@ int Motion::Get_state_sensor()
    current_state=digitalRead(Get_pin());
    return old_state, current_state;
 }
-/*bool Motion::isDetect()
-{
-   old_state=current_state;
-   current_state=digitalRead(Get_pin());;
-  if(old_state==LOW && current_state==HIGH)
-  {
-    return true;
-  }
-  else 
-  {
-    return false;
-  }
-}*/
 bool Motion::isDetect()
 {
   int current_state = digitalRead(Get_pin());
@@ -46,3 +33,4 @@ bool Motion::isDetect()
     return false;
   }
 }
+

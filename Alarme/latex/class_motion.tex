@@ -1,0 +1,119 @@
+\hypertarget{class_motion}{}\doxysection{Motion Class Reference}
+\label{class_motion}\index{Motion@{Motion}}
+
+
+Inheritance diagram for Motion\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{class_motion__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_motion_a444a2569aaadd10d76b4e6e6bfb3df0c}{Motion}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_motion}{Motion}}\+:\+: \mbox{\hyperlink{class_motion}{Motion}} object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_motion_a2ecc42f883bea9870164e2076bb0b099}{init}} ()
+\begin{DoxyCompactList}\small\item\em init the \mbox{\hyperlink{class_motion}{Motion}} sensor, only called by the constructor \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_motion_ad39f8ee9a1989a16e11459422d9b505c}{Get\+\_\+pin}} ()
+\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_motion}{Motion}} pin number. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_motion_a69336cffa5613ab933354e8883c61d9c}{Get\+\_\+state\+\_\+sensor}} ()
+\begin{DoxyCompactList}\small\item\em Get the state sensor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_motion_a89b3436c4acefccedcc35615884022bd}{is\+Detect}} ()
+\begin{DoxyCompactList}\small\item\em Check if motion is detected. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{init}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_sensor}{Sensor}}\+:\+: \mbox{\hyperlink{class_sensor}{Sensor}} object. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Get\+\_\+pin}} ()
+\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_sensor}{Sensor}} pin number. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get\+\_\+state\+\_\+sensor}} ()
+\begin{DoxyCompactList}\small\item\em Get the state of the sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_motion_a444a2569aaadd10d76b4e6e6bfb3df0c}\label{class_motion_a444a2569aaadd10d76b4e6e6bfb3df0c}} 
+\index{Motion@{Motion}!Motion@{Motion}}
+\index{Motion@{Motion}!Motion@{Motion}}
+\doxysubsubsection{\texorpdfstring{Motion()}{Motion()}}
+{\footnotesize\ttfamily Motion\+::\+Motion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_motion}{Motion}}\+:\+: \mbox{\hyperlink{class_motion}{Motion}} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_motion_ad39f8ee9a1989a16e11459422d9b505c}\label{class_motion_ad39f8ee9a1989a16e11459422d9b505c}} 
+\index{Motion@{Motion}!Get\_pin@{Get\_pin}}
+\index{Get\_pin@{Get\_pin}!Motion@{Motion}}
+\doxysubsubsection{\texorpdfstring{Get\_pin()}{Get\_pin()}}
+{\footnotesize\ttfamily int Motion\+::\+Get\+\_\+pin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the \mbox{\hyperlink{class_motion}{Motion}} pin number. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_motion}{Motion}} pin number 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Sensor}}.
+
+\mbox{\Hypertarget{class_motion_a69336cffa5613ab933354e8883c61d9c}\label{class_motion_a69336cffa5613ab933354e8883c61d9c}} 
+\index{Motion@{Motion}!Get\_state\_sensor@{Get\_state\_sensor}}
+\index{Get\_state\_sensor@{Get\_state\_sensor}!Motion@{Motion}}
+\doxysubsubsection{\texorpdfstring{Get\_state\_sensor()}{Get\_state\_sensor()}}
+{\footnotesize\ttfamily int Motion\+::\+Get\+\_\+state\+\_\+sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the state sensor. 
+
+\begin{DoxyReturn}{Returns}
+1 if motion is detected 
+
+0 if motion is not detected 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Sensor}}.
+
+\mbox{\Hypertarget{class_motion_a2ecc42f883bea9870164e2076bb0b099}\label{class_motion_a2ecc42f883bea9870164e2076bb0b099}} 
+\index{Motion@{Motion}!init@{init}}
+\index{init@{init}!Motion@{Motion}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Motion\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+init the \mbox{\hyperlink{class_motion}{Motion}} sensor, only called by the constructor 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{Sensor}}.
+
+\mbox{\Hypertarget{class_motion_a89b3436c4acefccedcc35615884022bd}\label{class_motion_a89b3436c4acefccedcc35615884022bd}} 
+\index{Motion@{Motion}!isDetect@{isDetect}}
+\index{isDetect@{isDetect}!Motion@{Motion}}
+\doxysubsubsection{\texorpdfstring{isDetect()}{isDetect()}}
+{\footnotesize\ttfamily bool Motion\+::is\+Detect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Check if motion is detected. 
+
+\begin{DoxyReturn}{Returns}
+true if motion is detected 
+
+false if motion is not detected 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+main/Motion.\+hpp\item 
+main/Motion.\+cpp\end{DoxyCompactItemize}

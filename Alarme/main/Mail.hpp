@@ -12,11 +12,23 @@
 #define DEFAULT_MAIL_PORT 587
 #define DEFAULT_MAIL_SUBJECT "Alarme déclenchée à l'instant ! "
 #define DEFAULT_MAIL_RECIPIENT "veychenn@etud.insa-toulouse.fr"
+/**
+ * @brief      Classe du mail.
+*/
 class Mail
 {
 public:
+    /**
+     * @brief      Constructeur par défaut de la classe Mail.
+    */
     Mail();
+    /**
+     * @brief      Destructeur par défaut de la classe Mail.
+    */
     ~Mail();
+    /**
+     * @brief     Permet d'envoyer un mail.
+    */
     void sendMail(void);
 
 private:

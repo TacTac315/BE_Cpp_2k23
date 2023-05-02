@@ -44,12 +44,10 @@ void Wifi::changePassword(const char *password)
 {
     this->password = password;
 }
-
 const char *Wifi::Get_SSID()
 {
     return this->ssid;
 }
-
 void Wifi::afficheStatus()
 {
     if (isConnected())

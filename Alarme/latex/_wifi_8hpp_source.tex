@@ -1,0 +1,29 @@
+\hypertarget{_wifi_8hpp_source}{}\doxysection{Wifi.\+hpp}
+\label{_wifi_8hpp_source}\index{main/Wifi.hpp@{main/Wifi.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ <ESP8266WiFi.h>}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ MAX\_SSID\_LENGHT\ 33}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ MAX\_WPA2\_PWD\_LENGHT\ 65}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#ifndef\ WIFI\_HPP}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#define\ WIFI\_HPP}}
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_wifi}{Wifi}}}
+\DoxyCodeLine{00011\ \{}
+\DoxyCodeLine{00012\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{class_wifi_a63b40a234377f5927d2d34d67826a010}{Wifi}}();}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_wifi_af9c0bb40082e1b5dd2907be907b94418}{\string~Wifi}}();}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wifi_a69dafc5d74ccbac021ee6aa16c64c428}{connect}}(\textcolor{keywordtype}{int}\ timeout);}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wifi_a231c52fc7b58fb4d3c4819258e2405da}{disconnect}}();}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_wifi_a51b2ba0dc0bc3f092daddf3f91981ec1}{isConnected}}();}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wifi_adaef2ddc2f628d44619c3aa7fe878800}{changeSsid}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *ssid);}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wifi_ae462c3bccfdfed707cf05941a64e2f0f}{changePassword}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *password);}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \mbox{\hyperlink{class_wifi_a6b4650470be3a096ec9b628921cd6a17}{Get\_SSID}}();}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wifi_a5a13fd59e6569877ee56db7ddd336d91}{afficheStatus}}();}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *ssid\ =\ \textcolor{keyword}{new}\ \textcolor{keywordtype}{char}[MAX\_SSID\_LENGHT];}
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *password\ =\ \textcolor{keyword}{new}\ \textcolor{keywordtype}{char}[MAX\_WPA2\_PWD\_LENGHT];}
+\DoxyCodeLine{00076\ \};}
+\DoxyCodeLine{00077\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

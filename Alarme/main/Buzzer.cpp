@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h>
 Buzzer::Buzzer()
 {
-    pinBuzzer=D5;
+    pinBuzzer=D1;
     init();
 }
 void Buzzer::init()
