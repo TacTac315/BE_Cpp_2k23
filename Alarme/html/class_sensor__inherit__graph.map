@@ -1,6 +1,7 @@
 <map id="Sensor" name="Sensor">
-<area shape="rect" id="node1" title=" " alt="" coords="191,5,337,127"/>
-<area shape="rect" id="node2" href="$class_bouton.html" title=" " alt="" coords="5,182,168,303"/>
-<area shape="rect" id="node3" href="$class_buzzer.html" title=" " alt="" coords="193,182,335,303"/>
-<area shape="rect" id="node4" href="$class_motion.html" title=" " alt="" coords="360,175,523,311"/>
+<area shape="rect" id="node1" title="Classe du capteur." alt="" coords="281,5,428,127"/>
+<area shape="rect" id="node2" href="$class_bouton.html" title="Classe du bouton." alt="" coords="5,197,168,318"/>
+<area shape="rect" id="node3" href="$class_buzzer.html" title="Classe du buzzer." alt="" coords="193,197,335,318"/>
+<area shape="rect" id="node4" href="$class_display.html" title="Classe de l&#39;écran." alt="" coords="359,175,534,340"/>
+<area shape="rect" id="node5" href="$class_motion.html" title="Classe du capteur de mouvement." alt="" coords="559,189,721,325"/>
 </map>

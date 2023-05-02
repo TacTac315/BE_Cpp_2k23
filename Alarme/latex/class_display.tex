@@ -1,0 +1,117 @@
+\hypertarget{class_display}{}\doxysection{Référence de la classe Display}
+\label{class_display}\index{Display@{Display}}
+
+
+Classe de l\textquotesingle{}écran.  
+
+
+
+
+{\ttfamily \#include $<$Display.\+hpp$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Display\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{class_display__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_display_ae972fffea6f7ca1d627ef48c3d841bb3}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut de la classe \mbox{\hyperlink{class_display}{Display}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_display_ac2607a6bb236c55547a4223d40d85d1f}{$\sim$\+Display}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur par défaut de la classe \mbox{\hyperlink{class_display}{Display}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_display_aacbf91b9f8c57fc2cb892c45fd44e655}{init}} ()
+\begin{DoxyCompactList}\small\item\em Initialisation de l\textquotesingle{}écran, appellé par le constructeur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_display_a14242933dd00fc1d50f9ae70d5121d14}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Vide l\textquotesingle{}écran. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_display_a38e11ee3c05ff494a67fb02d9d408ddc}{afficher\+\_\+message}} (const char $\ast$text, int size, int x, int y, int color)
+\begin{DoxyCompactList}\small\item\em Affiche un message sur l\textquotesingle{}écran. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres publiques hérités de \mbox{\hyperlink{class_sensor}{Sensor}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{init}} ()
+\begin{DoxyCompactList}\small\item\em Initialisation du capteur. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Get\+\_\+pin}} ()
+\begin{DoxyCompactList}\small\item\em Récupération du pin du capteur. \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get\+\_\+state\+\_\+sensor}} ()
+\begin{DoxyCompactList}\small\item\em Récupération de l\textquotesingle{}état du capteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Classe de l\textquotesingle{}écran. 
+
+L\textquotesingle{}écran permet d\textquotesingle{}afficher des messages. \begin{DoxyWarning}{Avertissement}
+L\textquotesingle{}écran hérite de la classe \mbox{\hyperlink{class_sensor}{Sensor}}. 
+\end{DoxyWarning}
+
+
+\doxysubsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_display_ae972fffea6f7ca1d627ef48c3d841bb3}\label{class_display_ae972fffea6f7ca1d627ef48c3d841bb3}} 
+\index{Display@{Display}!Display@{Display}}
+\index{Display@{Display}!Display@{Display}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily Display\+::\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut de la classe \mbox{\hyperlink{class_display}{Display}}. 
+
+\mbox{\Hypertarget{class_display_ac2607a6bb236c55547a4223d40d85d1f}\label{class_display_ac2607a6bb236c55547a4223d40d85d1f}} 
+\index{Display@{Display}!````~Display@{$\sim$Display}}
+\index{````~Display@{$\sim$Display}!Display@{Display}}
+\doxysubsubsection{\texorpdfstring{$\sim$Display()}{~Display()}}
+{\footnotesize\ttfamily Display\+::$\sim$\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur par défaut de la classe \mbox{\hyperlink{class_display}{Display}}. 
+
+
+
+\doxysubsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_display_a38e11ee3c05ff494a67fb02d9d408ddc}\label{class_display_a38e11ee3c05ff494a67fb02d9d408ddc}} 
+\index{Display@{Display}!afficher\_message@{afficher\_message}}
+\index{afficher\_message@{afficher\_message}!Display@{Display}}
+\doxysubsubsection{\texorpdfstring{afficher\_message()}{afficher\_message()}}
+{\footnotesize\ttfamily void Display\+::afficher\+\_\+message (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text,  }\item[{int}]{size,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{color = {\ttfamily WHITE} }\end{DoxyParamCaption})}
+
+
+
+Affiche un message sur l\textquotesingle{}écran. 
+
+\mbox{\Hypertarget{class_display_a14242933dd00fc1d50f9ae70d5121d14}\label{class_display_a14242933dd00fc1d50f9ae70d5121d14}} 
+\index{Display@{Display}!clear@{clear}}
+\index{clear@{clear}!Display@{Display}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Display\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Vide l\textquotesingle{}écran. 
+
+\mbox{\Hypertarget{class_display_aacbf91b9f8c57fc2cb892c45fd44e655}\label{class_display_aacbf91b9f8c57fc2cb892c45fd44e655}} 
+\index{Display@{Display}!init@{init}}
+\index{init@{init}!Display@{Display}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Display\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Initialisation de l\textquotesingle{}écran, appellé par le constructeur. 
+
+
+
+Réimplémentée à partir de \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{Sensor}}.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+main/\mbox{\hyperlink{_display_8hpp}{Display.\+hpp}}\item 
+main/\mbox{\hyperlink{_display_8cpp}{Display.\+cpp}}\end{DoxyCompactItemize}

@@ -1,26 +1,25 @@
 \hypertarget{_motion_8hpp_source}{}\doxysection{Motion.\+hpp}
 \label{_motion_8hpp_source}\index{main/Motion.hpp@{main/Motion.hpp}}
-
+\mbox{\hyperlink{_motion_8hpp}{Aller à la documentation de ce fichier.}}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DEF\_MOTION}}
 \DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DEF\_MOTION}}
-\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}Sensor.hpp"{}}}
-\DoxyCodeLine{00004\ }
-\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_motion}{Motion}}:\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_sensor}{Sensor}}}
-\DoxyCodeLine{00006\ \{}
-\DoxyCodeLine{00007\ \ \ \ \ \textcolor{keyword}{private}:}
-\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{int}\ pinMotion;}
-\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{int}\ current\_state;}
-\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{int}\ old\_state;}
-\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00012\ \ \ \ \ \mbox{\hyperlink{class_motion_a444a2569aaadd10d76b4e6e6bfb3df0c}{Motion}}();}
-\DoxyCodeLine{00013\ \ \ \ \textcolor{comment}{//\ \string~Motion();}}
-\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_motion_a2ecc42f883bea9870164e2076bb0b099}{init}}();}
-\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_motion_ad39f8ee9a1989a16e11459422d9b505c}{Get\_pin}}();}
-\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_motion_a69336cffa5613ab933354e8883c61d9c}{Get\_state\_sensor}}();}
-\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_motion_a89b3436c4acefccedcc35615884022bd}{isDetect}}();}
-\DoxyCodeLine{00018\ \};}
-\DoxyCodeLine{00019\ }
-\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_sensor_8hpp}{Sensor.hpp}}"{}}}
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_motion}{Motion}}:\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_sensor}{Sensor}}}
+\DoxyCodeLine{00010\ \{}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{int}\ pinMotion;}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ current\_state;}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ old\_state;}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_motion_a444a2569aaadd10d76b4e6e6bfb3df0c}{Motion}}();}
+\DoxyCodeLine{00020\ \ \ \ \textcolor{comment}{//\ \string~Motion();}}
+\DoxyCodeLine{00024\ \textcolor{comment}{}\ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_motion_a2ecc42f883bea9870164e2076bb0b099}{init}}();}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_motion_ad39f8ee9a1989a16e11459422d9b505c}{Get\_pin}}();}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_motion_a69336cffa5613ab933354e8883c61d9c}{Get\_state\_sensor}}();}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_motion_a89b3436c4acefccedcc35615884022bd}{isDetect}}();}
+\DoxyCodeLine{00042\ \};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#endif}}
 
 \end{DoxyCode}

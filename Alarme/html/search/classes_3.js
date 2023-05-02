@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wifi_0',['Wifi',['../class_wifi.html',1,'']]]
+  ['sensor_0',['Sensor',['../class_sensor.html',1,'']]]
 ];

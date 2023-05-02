@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  2 MAY 2023 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  2 MAY 2023 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,6 +451,52 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/02/13 3.71 The Babel package
+\babel@savecnt=\count316
+\U@D=\dimen188
+\l@unhyphenated=\language79
+
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read4
+\bbl@dirlevel=\count317
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
+df
+Language: french 2021/07/20 v3.5m French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@nonchar=\count318
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count319
+\FBold@everypar=\toks34
+\FB@Mht=\dimen189
+\mc@charclass=\count320
+\mc@charfam=\count321
+\mc@charslot=\count322
+\std@mcc=\count323
+\dec@mcc=\count324
+\listindentFB=\dimen190
+\descindentFB=\dimen191
+\labelindentFB=\dimen192
+\labelwidthFB=\dimen193
+\leftmarginFB=\dimen194
+\parindentFFN=\dimen195
+\FBfnindent=\dimen196
+))
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
@@ -477,26 +523,26 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count316
-\Gm@cntv=\count317
-\c@Gm@tempcnt=\count318
-\Gm@bindingoffset=\dimen188
-\Gm@wd@mp=\dimen189
-\Gm@odd@mp=\dimen190
-\Gm@even@mp=\dimen191
-\Gm@layoutwidth=\dimen192
-\Gm@layoutheight=\dimen193
-\Gm@layouthoffset=\dimen194
-\Gm@layoutvoffset=\dimen195
-\Gm@dimlist=\toks34
+\Gm@cnth=\count325
+\Gm@cntv=\count326
+\c@Gm@tempcnt=\count327
+\Gm@bindingoffset=\dimen197
+\Gm@wd@mp=\dimen198
+\Gm@odd@mp=\dimen199
+\Gm@even@mp=\dimen256
+\Gm@layoutwidth=\dimen257
+\Gm@layoutheight=\dimen258
+\Gm@layouthoffset=\dimen259
+\Gm@layoutvoffset=\dimen260
+\Gm@dimlist=\toks35
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.s
 ty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count319
-\cp@tempcnt=\count320
+\c@cp@cntr=\count328
+\cp@tempcnt=\count329
 LaTeX Info: Redefining \checkoddpage on input line 59.
 )
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
@@ -517,7 +563,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip91
 \bibsep=\skip92
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count321
+\c@NAT@ctr=\count330
 )
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -551,8 +597,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip119
 \cftfigindent=\skip120
 \cftfignumwidth=\skip121
-\c@lofdepth=\count322
-\c@lotdepth=\count323
+\c@lofdepth=\count331
+\c@lotdepth=\count332
 \cftbeforelottitleskip=\skip122
 \cftafterlottitleskip=\skip123
 \cftbeforetabskip=\skip124
@@ -570,11 +616,11 @@ dechar.sty
 Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
 )
 
-Package newunicodechar Warning: Redefining Unicode character on input line 117.
+Package newunicodechar Warning: Redefining Unicode character on input line 119.
 
 
 
-Package newunicodechar Warning: Redefining Unicode character on input line 118.
+Package newunicodechar Warning: Redefining Unicode character on input line 120.
 
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
@@ -615,9 +661,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen196
-\Hy@linkcounter=\count324
-\Hy@pagecounter=\count325
+\@linkdim=\dimen261
+\Hy@linkcounter=\count333
+\Hy@pagecounter=\count334
  (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -631,7 +677,7 @@ nguages
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count326
+\Hy@SavedSpaceFactor=\count335
  (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -669,20 +715,20 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 ))
-\c@Hy@tempcnt=\count327
+\c@Hy@tempcnt=\count336
  (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen197
+\XeTeXLinkMargin=\dimen262
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count328
-\Field@Width=\dimen198
-\Fld@charsize=\dimen199
+\Fld@menulength=\count337
+\Field@Width=\dimen263
+\Fld@charsize=\dimen264
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -697,9 +743,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count329
-\c@Item=\count330
-\c@Hfootnote=\count331
+\Hy@abspage=\count338
+\c@Item=\count339
+\c@Hfootnote=\count340
 
 
 LaTeX Warning: Command \LT@p@ftntext  has changed.
@@ -709,32 +755,33 @@ LaTeX Warning: Command \LT@p@ftntext  has changed.
 Package hyperref Info: Driver: hpdftex.
  (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
-\Fld@listcount=\count332
-\c@bookmark@seq@number=\count333
+\Fld@listcount=\count341
+\c@bookmark@seq@number=\count342
 \Hy@SectionHShift=\skip127
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 137.
-Package hyperref Info: Option `unicode' set `true' on input line 137.
+Package hyperref Info: Option `colorlinks' set `true' on input line 139.
+Package hyperref Info: Option `unicode' set `true' on input line 139.
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/02/20 v3.6 Customizing captions (AR)
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/01/07 v2.3 caption3 kernel (AR)
-\caption@tempdima=\dimen256
-\captionmargin=\dimen257
-\caption@leftmargin=\dimen258
-\caption@rightmargin=\dimen259
-\caption@width=\dimen260
-\caption@indent=\dimen261
-\caption@parindent=\dimen262
-\caption@hangindent=\dimen263
+\caption@tempdima=\dimen265
+\captionmargin=\dimen266
+\caption@leftmargin=\dimen267
+\caption@rightmargin=\dimen268
+\caption@width=\dimen269
+\caption@indent=\dimen270
+\caption@parindent=\dimen271
+\caption@hangindent=\dimen272
 Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count334
-\c@continuedfloat=\count335
+\c@caption@flags=\count343
+\c@continuedfloat=\count344
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen264
-\caption@adjustwidth@linewidth=\dimen265
+\caption@adjustwidth@hsize=\dimen273
+\caption@adjustwidth@linewidth=\dimen274
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -743,62 +790,62 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )) (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2021/09/23 v1.09e Completely customisable TOCs (JFB)
-\Etoc@toctoks=\toks35
-\c@etoc@tocid=\count336
-\c@etoc@tocdepth=\count337
+\Etoc@toctoks=\toks36
+\c@etoc@tocid=\count345
+\c@etoc@tocdepth=\count346
 \etoc@framed@titlebox=\box119
 \etoc@framed@contentsbox=\box120
 )
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 15
-3.
+5.
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 153.
+(Font)              scaled to size 8.99994pt on input line 155.
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
+\l__color_backend_stack_int=\count347
 \l__pdf_internal_box=\box121
 ) (refman.aux)
 \openout1 = `refman.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen266
+\scratchcounter=\count348
+\scratchdimen=\dimen275
 \scratchbox=\box122
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen267
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks37
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen276
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks38
 )
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -810,6 +857,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+LaTeX Info: Redefining \degres on input line 155.
+
+
+Package french.ldf Warning: Please load the "natbib" package
+(french.ldf)                BEFORE babel/french; reported on input line 155.
+
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 155.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 155.
+LaTeX Info: Redefining \up on input line 155.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -844,7 +904,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 153.
+Package hyperref Info: Link coloring ON on input line 155.
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -855,27 +915,27 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count345
+\c@section@level=\count354
 )
-LaTeX Info: Redefining \ref on input line 153.
-LaTeX Info: Redefining \pageref on input line 153.
-LaTeX Info: Redefining \nameref on input line 153.
+LaTeX Info: Redefining \ref on input line 155.
+LaTeX Info: Redefining \pageref on input line 155.
+LaTeX Info: Redefining \nameref on input line 155.
  (refman.out) (refman.out)
 \@outlinefile=\write5
 \openout5 = `refman.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 153.
+Package backref Info: ** backref set up for natbib ** on input line 155.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\Etoc@tf=\read4
-Package hyperref Info: Option `pageanchor' set `false' on input line 161.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 161.
+\Etoc@tf=\read5
+Package hyperref Info: Option `pageanchor' set `false' on input line 163.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 163.
 
-Package hyperref Info: Option `unicode' set `true' on input line 161.
+Package hyperref Info: Option `unicode' set `true' on input line 163.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 166.
+(Font)              scaled to size 12.9599pt on input line 168.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 168.
+(Font)              scaled to size 10.79993pt on input line 170.
  [1
 
 
@@ -886,113 +946,116 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 \openout6 = `refman.toc'.
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 174.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 174
+(Font)              scaled to size 8.99994pt on input line 176.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 176
 .
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 174
+LaTeX Font Info:    Trying to load font information for U+msb on input line 176
 .
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 17
-4.
+6.
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 174.
+(Font)              scaled to size 6.29996pt on input line 176.
 
 [1]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 174.
- [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 177.
+(Font)              scaled to size 6.29996pt on input line 176.
+ [2] [3] [4
 
-Chapter 1.
+]
+Package hyperref Info: Option `pageanchor' set `true' on input line 179.
+
+Chapitre 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 179.
+(Font)              scaled to size 18.66588pt on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 179.
+(Font)              scaled to size 18.66588pt on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 18.66588pt on input line 179.
+(Font)              scaled to size 18.66588pt on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 179.
+(Font)              scaled to size 22.39185pt on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 179.
+(Font)              scaled to size 22.39185pt on input line 181.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 22.39185pt on input line 179.
+(Font)              scaled to size 22.39185pt on input line 181.
 (hierarchy.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
-) [1
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+.
 
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 2.
+)
+[1
 
 ] [2
 
 ]
-Chapter 2.
+Chapitre 2.
 (annotated.tex) [3] [4
 
 ]
-Chapter 3.
+Chapitre 3.
 (files.tex) [5] [6
 
 ]
-Chapter 4.
-(class_bouton.tex <./class_bouton__inherit__graph.pdf
+Chapitre 4.
+(class_bouton.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 10
+.
+
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) <./class_bouton__inherit__graph.pdf
 
 pdfTeX warning: pdflatex (file ./class_bouton__inherit__graph.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >
-<class_bouton__inherit__graph.pdf, id=393, 202.7575pt x 299.1175pt>
+<class_bouton__inherit__graph.pdf, id=642, 202.7575pt x 299.1175pt>
 File: class_bouton__inherit__graph.pdf Graphic file (type pdf)
 <use class_bouton__inherit__graph.pdf>
-Package pdftex.def Info: class_bouton__inherit__graph.pdf  used on input line 9
-.
+Package pdftex.def Info: class_bouton__inherit__graph.pdf  used on input line 1
+9.
 (pdftex.def)             Requested size: 202.0pt x 298.00766pt.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 12.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-5.
- (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 15.
+(Font)              scaled to size 10.79993pt on input line 22.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 16.
+(Font)              scaled to size 8.09995pt on input line 26.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 16.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 26.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 16.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 16.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.29996pt on input line 16.
-
-[7]
+(Font)              scaled to size 8.09995pt on input line 26.
+LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 30.
+LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 30.
+ [7]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 38.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 38
-.
- (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
+(Font)              scaled to size 7.19995pt on input line 51.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 57.
+(Font)              scaled to size 8.99994pt on input line 70.
 
-Underfull \hbox (badness 10000) detected at line 57
+Underfull \hbox (badness 10000) detected at line 70
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 74
+Underfull \hbox (badness 10000) detected at line 87
 [][][]
  []
 
@@ -1001,43 +1064,69 @@ Underfull \hbox (badness 10000) detected at line 74
 pdfTeX warning: pdflatex (file ./class_buzzer__inherit__graph.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >
-<class_buzzer__inherit__graph.pdf, id=442, 190.7125pt x 299.1175pt>
+<class_buzzer__inherit__graph.pdf, id=686, 190.7125pt x 299.1175pt>
 File: class_buzzer__inherit__graph.pdf Graphic file (type pdf)
 <use class_buzzer__inherit__graph.pdf>
-Package pdftex.def Info: class_buzzer__inherit__graph.pdf  used on input line 9
-.
+Package pdftex.def Info: class_buzzer__inherit__graph.pdf  used on input line 1
+9.
 (pdftex.def)             Requested size: 190.0pt x 298.01222pt.
  [9]
-Underfull \hbox (badness 10000) detected at line 68
+Underfull \hbox (badness 10000) detected at line 47
 [][][]
  []
 
-[10]) (class_mail.tex
+[10]
+Underfull \hbox (badness 10000) detected at line 86
+[][][]
+ []
+
+) (class_display.tex <./class_display__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./class_display__inherit__graph.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>
+<class_display__inherit__graph.pdf, id=725, 211.79124pt x 332.24126pt>
+File: class_display__inherit__graph.pdf Graphic file (type pdf)
+<use class_display__inherit__graph.pdf>
+Package pdftex.def Info: class_display__inherit__graph.pdf  used on input line 
+19.
+(pdftex.def)             Requested size: 211.0pt x 331.01358pt.
+ [11]
+Underfull \hbox (badness 10000) detected at line 49
+[][][]
+ []
+
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 42.
- [11]) (class_motion.tex <./class_motion__inherit__graph.pdf
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 82.
+[12]) (class_mail.tex [13]) (class_motion.tex <./class_motion__inherit__graph.p
+df
 
 pdfTeX warning: pdflatex (file ./class_motion__inherit__graph.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >
-<class_motion__inherit__graph.pdf, id=506, 202.7575pt x 310.15875pt>
+<class_motion__inherit__graph.pdf, id=791, 202.7575pt x 310.15875pt>
 File: class_motion__inherit__graph.pdf Graphic file (type pdf)
 <use class_motion__inherit__graph.pdf>
-Package pdftex.def Info: class_motion__inherit__graph.pdf  used on input line 9
-.
+Package pdftex.def Info: class_motion__inherit__graph.pdf  used on input line 1
+9.
 (pdftex.def)             Requested size: 202.0pt x 309.00795pt.
- [12]
-Underfull \hbox (badness 10000) detected at line 59
+ [14] [15]
+Underfull \hbox (badness 10000) detected at line 48
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 76
+Underfull \hbox (badness 10000) detected at line 77
 [][][]
  []
 
-[13]
-Underfull \hbox (badness 10000) detected at line 109
+
+Underfull \hbox (badness 10000) detected at line 94
+[][][]
+ []
+
+[16]
+Underfull \hbox (badness 10000) detected at line 127
 [][][]
  []
 
@@ -1046,55 +1135,240 @@ Underfull \hbox (badness 10000) detected at line 109
 pdfTeX warning: pdflatex (file ./class_sensor__inherit__graph.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >
-<class_sensor__inherit__graph.pdf, id=554, 469.755pt x 310.15875pt>
+<class_sensor__inherit__graph.pdf, id=835, 619.31375pt x 332.24126pt>
 File: class_sensor__inherit__graph.pdf Graphic file (type pdf)
 <use class_sensor__inherit__graph.pdf>
-Package pdftex.def Info: class_sensor__inherit__graph.pdf  used on input line 9
-.
-(pdftex.def)             Requested size: 350.0pt x 231.08984pt.
- [14]
-Underfull \hbox (badness 10000) detected at line 34
+Package pdftex.def Info: class_sensor__inherit__graph.pdf  used on input line 1
+9.
+(pdftex.def)             Requested size: 350.0pt x 187.77242pt.
+ [17]
+Underfull \hbox (badness 10000) detected at line 47
 [][][]
  []
 
-[15]) (class_wifi.tex [16]
+
+Underfull \hbox (badness 10000) detected at line 64
+[][][]
+ []
+
+) (class_wifi.tex [18] [19]
 Underfull \hbox (badness 10000) detected at line 74
 [][][]
  []
 
-[17]
+[20]
 Underfull \hbox (badness 10000) detected at line 144
 [][][]
  []
 
-[18]
+
 Underfull \hbox (badness 10000) detected at line 157
 [][][]
  []
 
-) [19] [20
+) [21] [22
 
 ]
-Chapter 5.
-(_bouton_8hpp_source.tex) (_buzzer_8hpp_source.tex) (_mail_8hpp_source.tex
-[21]) (_motion_8hpp_source.tex) (_sensor_8hpp_source.tex)
-(_wifi_8hpp_source.tex [22]) [23] [24
+Chapitre 5.
+(_bouton_8cpp.tex <./_bouton_8cpp__incl.pdf
 
-] (refman.ind [25
+pdfTeX warning: pdflatex (file ./_bouton_8cpp__incl.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>
+<_bouton_8cpp__incl.pdf, id=913, 250.9375pt x 264.99pt>
+File: _bouton_8cpp__incl.pdf Graphic file (type pdf)
+<use _bouton_8cpp__incl.pdf>
+Package pdftex.def Info: _bouton_8cpp__incl.pdf  used on input line 10.
+(pdftex.def)             Requested size: 250.0pt x 264.01488pt.
+) (_bouton_8hpp.tex <./_bouton_8hpp__incl.pdf
 
+pdfTeX warning: pdflatex (file ./_bouton_8hpp__incl.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>
+<_bouton_8hpp__incl.pdf, id=921, 170.6375pt x 209.78375pt>
+File: _bouton_8hpp__incl.pdf Graphic file (type pdf)
+<use _bouton_8hpp__incl.pdf>
+Package pdftex.def Info: _bouton_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 170.0pt x 209.01176pt.
+ [23] <./_bouton_8hpp__dep__incl.pdf>
+<_bouton_8hpp__dep__incl.pdf, id=935, 170.6375pt x 154.5775pt>
+File: _bouton_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use _bouton_8hpp__dep__incl.pdf>
+Package pdftex.def Info: _bouton_8hpp__dep__incl.pdf  used on input line 17.
+(pdftex.def)             Requested size: 170.0pt x 154.00865pt.
+) (_bouton_8hpp_source.tex)
+(_buzzer_8cpp.tex <./_buzzer_8cpp__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_buzzer_8cpp__incl.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>
+<_buzzer_8cpp__incl.pdf, id=952, 250.9375pt x 264.99pt>
+File: _buzzer_8cpp__incl.pdf Graphic file (type pdf)
+<use _buzzer_8cpp__incl.pdf>
+Package pdftex.def Info: _buzzer_8cpp__incl.pdf  used on input line 10.
+(pdftex.def)             Requested size: 250.0pt x 264.01488pt.
+ [24]) (_buzzer_8hpp.tex <./_buzzer_8hpp__incl.pdf>
+<_buzzer_8hpp__incl.pdf, id=969, 170.6375pt x 209.78375pt>
+File: _buzzer_8hpp__incl.pdf Graphic file (type pdf)
+<use _buzzer_8hpp__incl.pdf>
+Package pdftex.def Info: _buzzer_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 170.0pt x 209.01176pt.
+ <./_buzzer_8hpp__dep__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_buzzer_8hpp__dep__incl.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>
+<_buzzer_8hpp__dep__incl.pdf, id=977, 170.6375pt x 154.5775pt>
+File: _buzzer_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use _buzzer_8hpp__dep__incl.pdf>
+Package pdftex.def Info: _buzzer_8hpp__dep__incl.pdf  used on input line 17.
+(pdftex.def)             Requested size: 170.0pt x 154.00865pt.
+ [25]) (_buzzer_8hpp_source.tex) (_display_8cpp.tex <./_display_8cpp__incl.pdf>
+<_display_8cpp__incl.pdf, id=1002, 433.62pt x 264.99pt>
+File: _display_8cpp__incl.pdf Graphic file (type pdf)
+<use _display_8cpp__incl.pdf>
+Package pdftex.def Info: _display_8cpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 350.0pt x 213.90077pt.
+) (_display_8hpp.tex [26] <./_display_8hpp__incl.pdf>
+<_display_8hpp__incl.pdf, id=1018, 433.62pt x 209.78375pt>
+File: _display_8hpp__incl.pdf Graphic file (type pdf)
+<use _display_8hpp__incl.pdf>
+Package pdftex.def Info: _display_8hpp__incl.pdf  used on input line 12.
+(pdftex.def)             Requested size: 350.0pt x 169.3381pt.
+ <./_display_8hpp__dep__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_display_8hpp__dep__incl.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>
+<_display_8hpp__dep__incl.pdf, id=1026, 172.645pt x 154.5775pt>
+File: _display_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use _display_8hpp__dep__incl.pdf>
+Package pdftex.def Info: _display_8hpp__dep__incl.pdf  used on input line 20.
+(pdftex.def)             Requested size: 172.0pt x 154.00159pt.
+ [27]) (_display_8hpp_source.tex) (_mail_8cpp.tex <./_mail_8cpp__incl.pdf>
+<_mail_8cpp__incl.pdf, id=1051, 178.6675pt x 209.78375pt>
+File: _mail_8cpp__incl.pdf Graphic file (type pdf)
+<use _mail_8cpp__incl.pdf>
+Package pdftex.def Info: _mail_8cpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 178.0pt x 209.01176pt.
+)
+(_mail_8hpp.tex [28] <./_mail_8hpp__incl.pdf>
+<_mail_8hpp__incl.pdf, id=1067, 178.6675pt x 154.5775pt>
+File: _mail_8hpp__incl.pdf Graphic file (type pdf)
+<use _mail_8hpp__incl.pdf>
+Package pdftex.def Info: _mail_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 178.0pt x 154.00865pt.
+ <./_mail_8hpp__dep__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_mail_8hpp__dep__incl.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>
+<_mail_8hpp__dep__incl.pdf, id=1075, 157.58875pt x 154.5775pt>
+File: _mail_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use _mail_8hpp__dep__incl.pdf>
+Package pdftex.def Info: _mail_8hpp__dep__incl.pdf  used on input line 17.
+(pdftex.def)             Requested size: 157.0pt x 154.00865pt.
+ [29] [30]
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 8
+5.
+
+(C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+))
+(_mail_8hpp_source.tex [31]) (_motion_8cpp.tex <./_motion_8cpp__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_motion_8cpp__incl.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>
+<_motion_8cpp__incl.pdf, id=1130, 250.9375pt x 264.99pt>
+File: _motion_8cpp__incl.pdf Graphic file (type pdf)
+<use _motion_8cpp__incl.pdf>
+Package pdftex.def Info: _motion_8cpp__incl.pdf  used on input line 10.
+(pdftex.def)             Requested size: 250.0pt x 264.01488pt.
+) (_motion_8hpp.tex <./_motion_8hpp__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_motion_8hpp__incl.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>
+<_motion_8hpp__incl.pdf, id=1138, 169.63374pt x 209.78375pt>
+File: _motion_8hpp__incl.pdf Graphic file (type pdf)
+<use _motion_8hpp__incl.pdf>
+Package pdftex.def Info: _motion_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 169.0pt x 209.00856pt.
+ [32] <./_motion_8hpp__dep__incl.pdf>
+<_motion_8hpp__dep__incl.pdf, id=1152, 169.63374pt x 154.5775pt>
+File: _motion_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use _motion_8hpp__dep__incl.pdf>
+Package pdftex.def Info: _motion_8hpp__dep__incl.pdf  used on input line 17.
+(pdftex.def)             Requested size: 169.0pt x 154.0063pt.
+) (_motion_8hpp_source.tex [33])
+(_sensor_8cpp.tex <./_sensor_8cpp__incl.pdf>
+<_sensor_8cpp__incl.pdf, id=1179, 250.9375pt x 209.78375pt>
+File: _sensor_8cpp__incl.pdf Graphic file (type pdf)
+<use _sensor_8cpp__incl.pdf>
+Package pdftex.def Info: _sensor_8cpp__incl.pdf  used on input line 10.
+(pdftex.def)             Requested size: 250.0pt x 209.01176pt.
+) (_sensor_8hpp.tex <./_sensor_8hpp__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_sensor_8hpp__incl.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>
+<_sensor_8hpp__incl.pdf, id=1187, 170.6375pt x 154.5775pt>
+File: _sensor_8hpp__incl.pdf Graphic file (type pdf)
+<use _sensor_8hpp__incl.pdf>
+Package pdftex.def Info: _sensor_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 170.0pt x 154.00865pt.
+ <./_sensor_8hpp__dep__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_sensor_8hpp__dep__incl.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>
+<_sensor_8hpp__dep__incl.pdf, id=1195, 606.265pt x 209.78375pt>
+File: _sensor_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use _sensor_8hpp__dep__incl.pdf>
+Package pdftex.def Info: _sensor_8hpp__dep__incl.pdf  used on input line 17.
+(pdftex.def)             Requested size: 350.0pt x 121.11127pt.
+ [34]) (_sensor_8hpp_source.tex) (_wifi_8cpp.tex <./_wifi_8cpp__incl.pdf>
+<_wifi_8cpp__incl.pdf, id=1216, 166.6225pt x 209.78375pt>
+File: _wifi_8cpp__incl.pdf Graphic file (type pdf)
+<use _wifi_8cpp__incl.pdf>
+Package pdftex.def Info: _wifi_8cpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 166.0pt x 209.01497pt.
+)
+(_wifi_8hpp.tex [35] <./_wifi_8hpp__incl.pdf>
+<_wifi_8hpp__incl.pdf, id=1232, 166.6225pt x 154.5775pt>
+File: _wifi_8hpp__incl.pdf Graphic file (type pdf)
+<use _wifi_8hpp__incl.pdf>
+Package pdftex.def Info: _wifi_8hpp__incl.pdf  used on input line 9.
+(pdftex.def)             Requested size: 166.0pt x 154.01102pt.
+ <./_wifi_8hpp__dep__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_wifi_8hpp__dep__incl.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>
+<_wifi_8hpp__dep__incl.pdf, id=1240, 156.585pt x 154.5775pt>
+File: _wifi_8hpp__dep__incl.pdf Graphic file (type pdf)
+<use _wifi_8hpp__dep__incl.pdf>
+Package pdftex.def Info: _wifi_8hpp__dep__incl.pdf  used on input line 17.
+(pdftex.def)             Requested size: 156.0pt x 154.0063pt.
+ [36]) (_wifi_8hpp_source.tex [37]) [38] (refman.ind [39
+
+
+
+] [40
 
 ]) (refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 2FDB55AC096E22F46787F3F65407685A;11018.
+(rerunfilecheck)             Checksum: D2E0BA0DEDB9EC6181308AA8B2AA8D9C;22259.
  ) 
 Here is how much of TeX's memory you used:
- 18158 strings out of 478584
- 299633 string characters out of 2844402
- 601162 words of memory out of 3000000
- 35835 multiletter control sequences out of 15000+600000
- 526496 words of font info for 96 fonts, out of 8000000 for 9000
+ 20306 strings out of 478584
+ 340711 string characters out of 2844402
+ 660631 words of memory out of 3000000
+ 37795 multiletter control sequences out of 15000+600000
+ 525341 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,117p,378b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,16n,117p,421b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/vince/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/vince/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
 0.pfb><C:/Users/vince/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1106,9 +1380,9 @@ pe1/urw/courier/ucrro8a.pfb><C:/Users/vince/AppData/Local/Programs/MiKTeX/fonts
 nts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/vince/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vince/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (29 pages, 293171 bytes).
+Output written on refman.pdf (46 pages, 720808 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
- 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1505 PDF objects out of 1728 (max. 8388607)
+ 266 named destinations out of 1000 (max. 500000)
+ 963 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,37 +1,55 @@
-\hypertarget{class_buzzer}{}\doxysection{Buzzer Class Reference}
+\hypertarget{class_buzzer}{}\doxysection{Référence de la classe Buzzer}
 \label{class_buzzer}\index{Buzzer@{Buzzer}}
 
 
-Inheritance diagram for Buzzer\+:\nopagebreak
+Classe du buzzer.  
+
+
+
+
+{\ttfamily \#include $<$Buzzer.\+hpp$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Buzzer\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=190pt]{class_buzzer__inherit__graph}
 \end{center}
 \end{figure}
-\doxysubsection*{Public Member Functions}
+\doxysubsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_buzzer_a8faf4fbbb7085ebdbb24d3681a727733}{Buzzer}} ()
-\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_buzzer}{Buzzer}}\+:\+: \mbox{\hyperlink{class_buzzer}{Buzzer}} object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut de la classe \mbox{\hyperlink{class_buzzer}{Buzzer}}. \end{DoxyCompactList}\item 
 virtual void \mbox{\hyperlink{class_buzzer_a9903dbdec189925e3beffcabc384e207}{init}} ()
-\begin{DoxyCompactList}\small\item\em init the \mbox{\hyperlink{class_buzzer}{Buzzer}} \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Initialisation du buzzer, appellé par le constructeur. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_buzzer_a68e17cdb259eed7ceed164b3d6510cd8}{Get\+\_\+pin}} ()
-\begin{DoxyCompactList}\small\item\em Get the pin object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Récupération du pin du buzzer. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_buzzer_a2fe94543319389dd8df5ef31c4325d25}{Buzz}} ()
-\begin{DoxyCompactList}\small\item\em Emit a buzz during 800ms. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_sensor}{Sensor}}}
+\begin{DoxyCompactList}\small\item\em Fait sonner le buzzer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres publiques hérités de \mbox{\hyperlink{class_sensor}{Sensor}}}
 \begin{DoxyCompactItemize}
 \item 
 virtual void \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{init}} ()
-\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_sensor}{Sensor}}\+:\+: \mbox{\hyperlink{class_sensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Initialisation du capteur. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Get\+\_\+pin}} ()
-\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_sensor}{Sensor}} pin number. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Récupération du pin du capteur. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get\+\_\+state\+\_\+sensor}} ()
-\begin{DoxyCompactList}\small\item\em Get the state of the sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Récupération de l\textquotesingle{}état du capteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Constructor \& Destructor Documentation}
+\doxysubsection{Description détaillée}
+Classe du buzzer. 
+
+Le buzzer est un capteur qui permet de faire du bruit. \begin{DoxyWarning}{Avertissement}
+Le buzzer hérite de la classe \mbox{\hyperlink{class_sensor}{Sensor}}. 
+\end{DoxyWarning}
+
+
+\doxysubsection{Documentation des constructeurs et destructeur}
 \mbox{\Hypertarget{class_buzzer_a8faf4fbbb7085ebdbb24d3681a727733}\label{class_buzzer_a8faf4fbbb7085ebdbb24d3681a727733}} 
 \index{Buzzer@{Buzzer}!Buzzer@{Buzzer}}
 \index{Buzzer@{Buzzer}!Buzzer@{Buzzer}}
@@ -40,11 +58,11 @@ virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get
 
 
 
-Construct a new \mbox{\hyperlink{class_buzzer}{Buzzer}}\+:\+: \mbox{\hyperlink{class_buzzer}{Buzzer}} object. 
+Constructeur par défaut de la classe \mbox{\hyperlink{class_buzzer}{Buzzer}}. 
 
 
 
-\doxysubsection{Member Function Documentation}
+\doxysubsection{Documentation des fonctions membres}
 \mbox{\Hypertarget{class_buzzer_a2fe94543319389dd8df5ef31c4325d25}\label{class_buzzer_a2fe94543319389dd8df5ef31c4325d25}} 
 \index{Buzzer@{Buzzer}!Buzz@{Buzz}}
 \index{Buzz@{Buzz}!Buzzer@{Buzzer}}
@@ -53,7 +71,7 @@ Construct a new \mbox{\hyperlink{class_buzzer}{Buzzer}}\+:\+: \mbox{\hyperlink{c
 
 
 
-Emit a buzz during 800ms. 
+Fait sonner le buzzer. 
 
 \mbox{\Hypertarget{class_buzzer_a68e17cdb259eed7ceed164b3d6510cd8}\label{class_buzzer_a68e17cdb259eed7ceed164b3d6510cd8}} 
 \index{Buzzer@{Buzzer}!Get\_pin@{Get\_pin}}
@@ -63,14 +81,14 @@ Emit a buzz during 800ms.
 
 
 
-Get the pin object. 
+Récupération du pin du buzzer. 
 
-\begin{DoxyReturn}{Returns}
-\mbox{\hyperlink{class_buzzer}{Buzzer}} pin number 
+\begin{DoxyReturn}{Renvoie}
+Le pin du buzzer. 
 \end{DoxyReturn}
 
 
-Reimplemented from \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Sensor}}.
+Réimplémentée à partir de \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Sensor}}.
 
 \mbox{\Hypertarget{class_buzzer_a9903dbdec189925e3beffcabc384e207}\label{class_buzzer_a9903dbdec189925e3beffcabc384e207}} 
 \index{Buzzer@{Buzzer}!init@{init}}
@@ -80,15 +98,15 @@ Reimplemented from \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7
 
 
 
-init the \mbox{\hyperlink{class_buzzer}{Buzzer}} 
+Initialisation du buzzer, appellé par le constructeur. 
 
 
 
-Reimplemented from \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{Sensor}}.
+Réimplémentée à partir de \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{Sensor}}.
 
 
 
-The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
 \item 
-main/Buzzer.\+hpp\item 
-main/Buzzer.\+cpp\end{DoxyCompactItemize}
+main/\mbox{\hyperlink{_buzzer_8hpp}{Buzzer.\+hpp}}\item 
+main/\mbox{\hyperlink{_buzzer_8cpp}{Buzzer.\+cpp}}\end{DoxyCompactItemize}

@@ -1,26 +1,39 @@
-\hypertarget{class_sensor}{}\doxysection{Sensor Class Reference}
+\hypertarget{class_sensor}{}\doxysection{Référence de la classe Sensor}
 \label{class_sensor}\index{Sensor@{Sensor}}
 
 
-Inheritance diagram for Sensor\+:\nopagebreak
+Classe du capteur.  
+
+
+
+
+{\ttfamily \#include $<$Sensor.\+hpp$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Sensor\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_sensor__inherit__graph}
 \end{center}
 \end{figure}
-\doxysubsection*{Public Member Functions}
+\doxysubsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
 virtual void \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{init}} ()
-\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_sensor}{Sensor}}\+:\+: \mbox{\hyperlink{class_sensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Initialisation du capteur. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Get\+\_\+pin}} ()
-\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_sensor}{Sensor}} pin number. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Récupération du pin du capteur. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get\+\_\+state\+\_\+sensor}} ()
-\begin{DoxyCompactList}\small\item\em Get the state of the sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Récupération de l\textquotesingle{}état du capteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Member Function Documentation}
+\doxysubsection{Description détaillée}
+Classe du capteur. 
+
+\doxysubsection{Documentation des fonctions membres}
 \mbox{\Hypertarget{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}\label{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}} 
 \index{Sensor@{Sensor}!Get\_pin@{Get\_pin}}
 \index{Get\_pin@{Get\_pin}!Sensor@{Sensor}}
@@ -29,14 +42,14 @@ virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get
 
 
 
-Get the \mbox{\hyperlink{class_sensor}{Sensor}} pin number. 
+Récupération du pin du capteur. 
 
-\begin{DoxyReturn}{Returns}
-\mbox{\hyperlink{class_sensor}{Sensor}} pin number 
+\begin{DoxyReturn}{Renvoie}
+Le pin du capteur. 
 \end{DoxyReturn}
 
 
-Reimplemented in \mbox{\hyperlink{class_bouton_ac8beb94749b7462f376408857ef7f1f9}{Bouton}}, \mbox{\hyperlink{class_buzzer_a68e17cdb259eed7ceed164b3d6510cd8}{Buzzer}}, and \mbox{\hyperlink{class_motion_ad39f8ee9a1989a16e11459422d9b505c}{Motion}}.
+Réimplémentée dans \mbox{\hyperlink{class_bouton_ac8beb94749b7462f376408857ef7f1f9}{Bouton}}, \mbox{\hyperlink{class_buzzer_a68e17cdb259eed7ceed164b3d6510cd8}{Buzzer}}, et \mbox{\hyperlink{class_motion_ad39f8ee9a1989a16e11459422d9b505c}{Motion}}.
 
 \mbox{\Hypertarget{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}\label{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}} 
 \index{Sensor@{Sensor}!Get\_state\_sensor@{Get\_state\_sensor}}
@@ -46,11 +59,14 @@ Reimplemented in \mbox{\hyperlink{class_bouton_ac8beb94749b7462f376408857ef7f1f9
 
 
 
-Get the state of the sensor. 
+Récupération de l\textquotesingle{}état du capteur. 
+
+\begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}état du capteur. 
+\end{DoxyReturn}
 
 
-
-Reimplemented in \mbox{\hyperlink{class_bouton_abfcb061c9cc846f5d4f5c3d01e8b7e1c}{Bouton}}, and \mbox{\hyperlink{class_motion_a69336cffa5613ab933354e8883c61d9c}{Motion}}.
+Réimplémentée dans \mbox{\hyperlink{class_bouton_abfcb061c9cc846f5d4f5c3d01e8b7e1c}{Bouton}}, et \mbox{\hyperlink{class_motion_a69336cffa5613ab933354e8883c61d9c}{Motion}}.
 
 \mbox{\Hypertarget{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}\label{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}} 
 \index{Sensor@{Sensor}!init@{init}}
@@ -60,15 +76,15 @@ Reimplemented in \mbox{\hyperlink{class_bouton_abfcb061c9cc846f5d4f5c3d01e8b7e1c
 
 
 
-Construct a new \mbox{\hyperlink{class_sensor}{Sensor}}\+:\+: \mbox{\hyperlink{class_sensor}{Sensor}} object. 
+Initialisation du capteur. 
 
 
 
-Reimplemented in \mbox{\hyperlink{class_bouton_a4ca0b6bd188acaa6272a4ff751b54283}{Bouton}}, \mbox{\hyperlink{class_buzzer_a9903dbdec189925e3beffcabc384e207}{Buzzer}}, and \mbox{\hyperlink{class_motion_a2ecc42f883bea9870164e2076bb0b099}{Motion}}.
+Réimplémentée dans \mbox{\hyperlink{class_bouton_a4ca0b6bd188acaa6272a4ff751b54283}{Bouton}}, \mbox{\hyperlink{class_buzzer_a9903dbdec189925e3beffcabc384e207}{Buzzer}}, \mbox{\hyperlink{class_display_aacbf91b9f8c57fc2cb892c45fd44e655}{Display}}, et \mbox{\hyperlink{class_motion_a2ecc42f883bea9870164e2076bb0b099}{Motion}}.
 
 
 
-The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
 \item 
-main/Sensor.\+hpp\item 
-main/Sensor.\+cpp\end{DoxyCompactItemize}
+main/\mbox{\hyperlink{_sensor_8hpp}{Sensor.\+hpp}}\item 
+main/\mbox{\hyperlink{_sensor_8cpp}{Sensor.\+cpp}}\end{DoxyCompactItemize}

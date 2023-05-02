@@ -1,0 +1,110 @@
+\hypertarget{_mail_8hpp}{}\doxysection{Référence du fichier main/\+Mail.hpp}
+\label{_mail_8hpp}\index{main/Mail.hpp@{main/Mail.hpp}}
+{\ttfamily \#include $<$ESP\+\_\+\+Mail\+\_\+\+Client.\+h$>$}\newline
+Graphe des dépendances par inclusion de Mail.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{_mail_8hpp__incl}
+\end{center}
+\end{figure}
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier \+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{_mail_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_mail}{Mail}}
+\begin{DoxyCompactList}\small\item\em Classe du mail. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_ad2662fa0f18a65e25f47d9c48485daca}{MAX\+\_\+\+MAIL\+\_\+\+ADRESS\+\_\+\+LENGHT}}~65
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_ab083819334d625e4ef31de1c3d2e5cac}{MAX\+\_\+\+MAIL\+\_\+\+PASSWORD\+\_\+\+LENGHT}}~65
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a87ef197da60165039ffb742bb265f894}{MAX\+\_\+\+MAIL\+\_\+\+SERVER\+\_\+\+LENGHT}}~65
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a01cafe987b3e7967f9d4424c31840f6e}{MAX\+\_\+\+MAIL\+\_\+\+PORT\+\_\+\+LENGHT}}~65
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a4a8aa5f32399935804b165aebbb90542}{DEFAULT\+\_\+\+MAIL\+\_\+\+SENDER\+\_\+\+ADRESS}}~\char`\"{}Alarme@caramail.\+fr\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a121c84d2b33f264c32b7f0b5c1d821da}{DEFAULT\+\_\+\+MAIL\+\_\+\+SENDER\+\_\+\+PASSWORD}}~\char`\"{}v5p\+Gdt\+RVxr\+S6g\+EU\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a537fda49acaffde3650af2d0717db883}{DEFAULT\+\_\+\+MAIL\+\_\+\+SERVER}}~\char`\"{}mail.\+gmx.\+com\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a4a2a2e0e7abd8baf448a1551ab82fc65}{DEFAULT\+\_\+\+MAIL\+\_\+\+PORT}}~587
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a84d1c1c54c202d3614a4bf8ed6a226f5}{DEFAULT\+\_\+\+MAIL\+\_\+\+SUBJECT}}~\char`\"{}Alarme déclenchée à l\textquotesingle{}instant ! \char`\"{}
+\item 
+\#define \mbox{\hyperlink{_mail_8hpp_a1374cac2bef2cc95b1be38130a6f1b5a}{DEFAULT\+\_\+\+MAIL\+\_\+\+RECIPIENT}}~\char`\"{}veychenn@etud.\+insa-\/toulouse.\+fr\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentation des macros}
+\mbox{\Hypertarget{_mail_8hpp_a4a2a2e0e7abd8baf448a1551ab82fc65}\label{_mail_8hpp_a4a2a2e0e7abd8baf448a1551ab82fc65}} 
+\index{Mail.hpp@{Mail.hpp}!DEFAULT\_MAIL\_PORT@{DEFAULT\_MAIL\_PORT}}
+\index{DEFAULT\_MAIL\_PORT@{DEFAULT\_MAIL\_PORT}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_MAIL\_PORT}{DEFAULT\_MAIL\_PORT}}
+{\footnotesize\ttfamily \#define DEFAULT\+\_\+\+MAIL\+\_\+\+PORT~587}
+
+\mbox{\Hypertarget{_mail_8hpp_a1374cac2bef2cc95b1be38130a6f1b5a}\label{_mail_8hpp_a1374cac2bef2cc95b1be38130a6f1b5a}} 
+\index{Mail.hpp@{Mail.hpp}!DEFAULT\_MAIL\_RECIPIENT@{DEFAULT\_MAIL\_RECIPIENT}}
+\index{DEFAULT\_MAIL\_RECIPIENT@{DEFAULT\_MAIL\_RECIPIENT}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_MAIL\_RECIPIENT}{DEFAULT\_MAIL\_RECIPIENT}}
+{\footnotesize\ttfamily \#define DEFAULT\+\_\+\+MAIL\+\_\+\+RECIPIENT~\char`\"{}veychenn@etud.\+insa-\/toulouse.\+fr\char`\"{}}
+
+\mbox{\Hypertarget{_mail_8hpp_a4a8aa5f32399935804b165aebbb90542}\label{_mail_8hpp_a4a8aa5f32399935804b165aebbb90542}} 
+\index{Mail.hpp@{Mail.hpp}!DEFAULT\_MAIL\_SENDER\_ADRESS@{DEFAULT\_MAIL\_SENDER\_ADRESS}}
+\index{DEFAULT\_MAIL\_SENDER\_ADRESS@{DEFAULT\_MAIL\_SENDER\_ADRESS}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_MAIL\_SENDER\_ADRESS}{DEFAULT\_MAIL\_SENDER\_ADRESS}}
+{\footnotesize\ttfamily \#define DEFAULT\+\_\+\+MAIL\+\_\+\+SENDER\+\_\+\+ADRESS~\char`\"{}Alarme@caramail.\+fr\char`\"{}}
+
+\mbox{\Hypertarget{_mail_8hpp_a121c84d2b33f264c32b7f0b5c1d821da}\label{_mail_8hpp_a121c84d2b33f264c32b7f0b5c1d821da}} 
+\index{Mail.hpp@{Mail.hpp}!DEFAULT\_MAIL\_SENDER\_PASSWORD@{DEFAULT\_MAIL\_SENDER\_PASSWORD}}
+\index{DEFAULT\_MAIL\_SENDER\_PASSWORD@{DEFAULT\_MAIL\_SENDER\_PASSWORD}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_MAIL\_SENDER\_PASSWORD}{DEFAULT\_MAIL\_SENDER\_PASSWORD}}
+{\footnotesize\ttfamily \#define DEFAULT\+\_\+\+MAIL\+\_\+\+SENDER\+\_\+\+PASSWORD~\char`\"{}v5p\+Gdt\+RVxr\+S6g\+EU\char`\"{}}
+
+\mbox{\Hypertarget{_mail_8hpp_a537fda49acaffde3650af2d0717db883}\label{_mail_8hpp_a537fda49acaffde3650af2d0717db883}} 
+\index{Mail.hpp@{Mail.hpp}!DEFAULT\_MAIL\_SERVER@{DEFAULT\_MAIL\_SERVER}}
+\index{DEFAULT\_MAIL\_SERVER@{DEFAULT\_MAIL\_SERVER}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_MAIL\_SERVER}{DEFAULT\_MAIL\_SERVER}}
+{\footnotesize\ttfamily \#define DEFAULT\+\_\+\+MAIL\+\_\+\+SERVER~\char`\"{}mail.\+gmx.\+com\char`\"{}}
+
+\mbox{\Hypertarget{_mail_8hpp_a84d1c1c54c202d3614a4bf8ed6a226f5}\label{_mail_8hpp_a84d1c1c54c202d3614a4bf8ed6a226f5}} 
+\index{Mail.hpp@{Mail.hpp}!DEFAULT\_MAIL\_SUBJECT@{DEFAULT\_MAIL\_SUBJECT}}
+\index{DEFAULT\_MAIL\_SUBJECT@{DEFAULT\_MAIL\_SUBJECT}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_MAIL\_SUBJECT}{DEFAULT\_MAIL\_SUBJECT}}
+{\footnotesize\ttfamily \#define DEFAULT\+\_\+\+MAIL\+\_\+\+SUBJECT~\char`\"{}Alarme déclenchée à l\textquotesingle{}instant ! \char`\"{}}
+
+\mbox{\Hypertarget{_mail_8hpp_ad2662fa0f18a65e25f47d9c48485daca}\label{_mail_8hpp_ad2662fa0f18a65e25f47d9c48485daca}} 
+\index{Mail.hpp@{Mail.hpp}!MAX\_MAIL\_ADRESS\_LENGHT@{MAX\_MAIL\_ADRESS\_LENGHT}}
+\index{MAX\_MAIL\_ADRESS\_LENGHT@{MAX\_MAIL\_ADRESS\_LENGHT}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{MAX\_MAIL\_ADRESS\_LENGHT}{MAX\_MAIL\_ADRESS\_LENGHT}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+MAIL\+\_\+\+ADRESS\+\_\+\+LENGHT~65}
+
+\mbox{\Hypertarget{_mail_8hpp_ab083819334d625e4ef31de1c3d2e5cac}\label{_mail_8hpp_ab083819334d625e4ef31de1c3d2e5cac}} 
+\index{Mail.hpp@{Mail.hpp}!MAX\_MAIL\_PASSWORD\_LENGHT@{MAX\_MAIL\_PASSWORD\_LENGHT}}
+\index{MAX\_MAIL\_PASSWORD\_LENGHT@{MAX\_MAIL\_PASSWORD\_LENGHT}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{MAX\_MAIL\_PASSWORD\_LENGHT}{MAX\_MAIL\_PASSWORD\_LENGHT}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+MAIL\+\_\+\+PASSWORD\+\_\+\+LENGHT~65}
+
+\mbox{\Hypertarget{_mail_8hpp_a01cafe987b3e7967f9d4424c31840f6e}\label{_mail_8hpp_a01cafe987b3e7967f9d4424c31840f6e}} 
+\index{Mail.hpp@{Mail.hpp}!MAX\_MAIL\_PORT\_LENGHT@{MAX\_MAIL\_PORT\_LENGHT}}
+\index{MAX\_MAIL\_PORT\_LENGHT@{MAX\_MAIL\_PORT\_LENGHT}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{MAX\_MAIL\_PORT\_LENGHT}{MAX\_MAIL\_PORT\_LENGHT}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+MAIL\+\_\+\+PORT\+\_\+\+LENGHT~65}
+
+\mbox{\Hypertarget{_mail_8hpp_a87ef197da60165039ffb742bb265f894}\label{_mail_8hpp_a87ef197da60165039ffb742bb265f894}} 
+\index{Mail.hpp@{Mail.hpp}!MAX\_MAIL\_SERVER\_LENGHT@{MAX\_MAIL\_SERVER\_LENGHT}}
+\index{MAX\_MAIL\_SERVER\_LENGHT@{MAX\_MAIL\_SERVER\_LENGHT}!Mail.hpp@{Mail.hpp}}
+\doxysubsubsection{\texorpdfstring{MAX\_MAIL\_SERVER\_LENGHT}{MAX\_MAIL\_SERVER\_LENGHT}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+MAIL\+\_\+\+SERVER\+\_\+\+LENGHT~65}
+

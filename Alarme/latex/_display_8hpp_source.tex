@@ -1,0 +1,29 @@
+\hypertarget{_display_8hpp_source}{}\doxysection{Display.\+hpp}
+\label{_display_8hpp_source}\index{main/Display.hpp@{main/Display.hpp}}
+\mbox{\hyperlink{_display_8hpp}{Aller à la documentation de ce fichier.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DEF\_DISPLAY}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DEF\_DISPLAY}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <Wire.h>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <Adafruit\_GFX.h>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <Adafruit\_SSD1306.h>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_sensor_8hpp}{Sensor.hpp}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_display}{Display}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_sensor}{Sensor}}}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00015\ \ \ \textcolor{keywordtype}{int}\ pinDisplay;}
+\DoxyCodeLine{00016\ \ \ Adafruit\_SSD1306*\ display;}
+\DoxyCodeLine{00017\ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ SCREEN\_WIDTH\ =\ 128;}
+\DoxyCodeLine{00018\ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ SCREEN\_HEIGHT\ =\ 64;}
+\DoxyCodeLine{00019\ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ OLED\_RESET\ =\ -\/1;}
+\DoxyCodeLine{00020\ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \mbox{\hyperlink{class_display_ae972fffea6f7ca1d627ef48c3d841bb3}{Display}}();}
+\DoxyCodeLine{00028\ \ \ \mbox{\hyperlink{class_display_ac2607a6bb236c55547a4223d40d85d1f}{\string~Display}}();}
+\DoxyCodeLine{00032\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_display_aacbf91b9f8c57fc2cb892c45fd44e655}{init}}();}
+\DoxyCodeLine{00036\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_display_a14242933dd00fc1d50f9ae70d5121d14}{clear}}();}
+\DoxyCodeLine{00040\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_display_a38e11ee3c05ff494a67fb02d9d408ddc}{afficher\_message}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ text,\ \textcolor{keywordtype}{int}\ size,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{int}\ color);}
+\DoxyCodeLine{00041\ \ \textcolor{comment}{//\ void\ get\_display();}}
+\DoxyCodeLine{00042\ \};}
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

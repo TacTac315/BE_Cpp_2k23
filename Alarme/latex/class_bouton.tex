@@ -1,36 +1,49 @@
-\hypertarget{class_bouton}{}\doxysection{Bouton Class Reference}
+\hypertarget{class_bouton}{}\doxysection{Référence de la classe Bouton}
 \label{class_bouton}\index{Bouton@{Bouton}}
 
 
-Inheritance diagram for Bouton\+:\nopagebreak
+Classe du bouton.  
+
+
+
+
+{\ttfamily \#include $<$Bouton.\+hpp$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Bouton\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=202pt]{class_bouton__inherit__graph}
 \end{center}
 \end{figure}
-\doxysubsection*{Public Member Functions}
+\doxysubsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_bouton_ad1e4f684cad81db47393df0be7a65658}{Bouton}} ()
-\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_bouton}{Bouton}}\+:\+: \mbox{\hyperlink{class_bouton}{Bouton}} object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut de la classe \mbox{\hyperlink{class_bouton}{Bouton}}. \end{DoxyCompactList}\item 
 virtual void \mbox{\hyperlink{class_bouton_a4ca0b6bd188acaa6272a4ff751b54283}{init}} ()
-\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_bouton}{Bouton}}\+:\+: \mbox{\hyperlink{class_bouton}{Bouton}} object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Initialisation du bouton, appellé par le constructeur. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_bouton_abfcb061c9cc846f5d4f5c3d01e8b7e1c}{Get\+\_\+state\+\_\+sensor}} ()
-\begin{DoxyCompactList}\small\item\em Get the state sensor object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Récupération de l\textquotesingle{}état du bouton. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_bouton_ac8beb94749b7462f376408857ef7f1f9}{Get\+\_\+pin}} ()
-\begin{DoxyCompactList}\small\item\em Get the pin object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Récupération du pin du bouton. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \begin{DoxyCompactItemize}
 \item 
 virtual void \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{init}} ()
-\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_sensor}{Sensor}}\+:\+: \mbox{\hyperlink{class_sensor}{Sensor}} object. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Initialisation du capteur. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Get\+\_\+pin}} ()
-\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_sensor}{Sensor}} pin number. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Récupération du pin du capteur. \end{DoxyCompactList}\item 
 virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get\+\_\+state\+\_\+sensor}} ()
-\begin{DoxyCompactList}\small\item\em Get the state of the sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Récupération de l\textquotesingle{}état du capteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Constructor \& Destructor Documentation}
+\doxysubsection{Description détaillée}
+Classe du bouton. 
+
+\doxysubsection{Documentation des constructeurs et destructeur}
 \mbox{\Hypertarget{class_bouton_ad1e4f684cad81db47393df0be7a65658}\label{class_bouton_ad1e4f684cad81db47393df0be7a65658}} 
 \index{Bouton@{Bouton}!Bouton@{Bouton}}
 \index{Bouton@{Bouton}!Bouton@{Bouton}}
@@ -39,11 +52,11 @@ virtual int \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Get
 
 
 
-Construct a new \mbox{\hyperlink{class_bouton}{Bouton}}\+:\+: \mbox{\hyperlink{class_bouton}{Bouton}} object. 
+Constructeur par défaut de la classe \mbox{\hyperlink{class_bouton}{Bouton}}. 
 
 
 
-\doxysubsection{Member Function Documentation}
+\doxysubsection{Documentation des fonctions membres}
 \mbox{\Hypertarget{class_bouton_ac8beb94749b7462f376408857ef7f1f9}\label{class_bouton_ac8beb94749b7462f376408857ef7f1f9}} 
 \index{Bouton@{Bouton}!Get\_pin@{Get\_pin}}
 \index{Get\_pin@{Get\_pin}!Bouton@{Bouton}}
@@ -52,14 +65,14 @@ Construct a new \mbox{\hyperlink{class_bouton}{Bouton}}\+:\+: \mbox{\hyperlink{c
 
 
 
-Get the pin object. 
+Récupération du pin du bouton. 
 
-\begin{DoxyReturn}{Returns}
-Button pin number 
+\begin{DoxyReturn}{Renvoie}
+Le pin du bouton. 
 \end{DoxyReturn}
 
 
-Reimplemented from \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Sensor}}.
+Réimplémentée à partir de \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Sensor}}.
 
 \mbox{\Hypertarget{class_bouton_abfcb061c9cc846f5d4f5c3d01e8b7e1c}\label{class_bouton_abfcb061c9cc846f5d4f5c3d01e8b7e1c}} 
 \index{Bouton@{Bouton}!Get\_state\_sensor@{Get\_state\_sensor}}
@@ -69,16 +82,14 @@ Reimplemented from \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7
 
 
 
-Get the state sensor object. 
+Récupération de l\textquotesingle{}état du bouton. 
 
-\begin{DoxyReturn}{Returns}
-1 if button is pressed 
-
-0 if button is not pressed 
+\begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}état du bouton. 
 \end{DoxyReturn}
 
 
-Reimplemented from \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Sensor}}.
+Réimplémentée à partir de \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956ee}{Sensor}}.
 
 \mbox{\Hypertarget{class_bouton_a4ca0b6bd188acaa6272a4ff751b54283}\label{class_bouton_a4ca0b6bd188acaa6272a4ff751b54283}} 
 \index{Bouton@{Bouton}!init@{init}}
@@ -88,15 +99,15 @@ Reimplemented from \mbox{\hyperlink{class_sensor_a1ce9eb7d972961ff70b659f864e956
 
 
 
-Destroy the \mbox{\hyperlink{class_bouton}{Bouton}}\+:\+: \mbox{\hyperlink{class_bouton}{Bouton}} object. 
+Initialisation du bouton, appellé par le constructeur. 
 
 
 
-Reimplemented from \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{Sensor}}.
+Réimplémentée à partir de \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{Sensor}}.
 
 
 
-The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
 \item 
-main/Bouton.\+hpp\item 
-main/Bouton.\+cpp\end{DoxyCompactItemize}
+main/\mbox{\hyperlink{_bouton_8hpp}{Bouton.\+hpp}}\item 
+main/\mbox{\hyperlink{_bouton_8cpp}{Bouton.\+cpp}}\end{DoxyCompactItemize}
