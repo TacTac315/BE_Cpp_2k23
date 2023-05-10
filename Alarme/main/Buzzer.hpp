@@ -29,5 +29,6 @@ class Buzzer :public  Sensor
      * @brief      Fait sonner le buzzer.
     */
     void Buzz();
+    void Buzz_off();
 };
 #endif

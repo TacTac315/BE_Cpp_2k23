@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h>
 Buzzer::Buzzer()
 {
-    pinBuzzer=D1;
+    pinBuzzer=D8;
     init();
 }
 void Buzzer::init()
@@ -17,6 +17,10 @@ void Buzzer::Buzz()
 {
  
     tone(Get_pin(),500);
-    delay(800);
-    noTone(Get_pin());
+    //delay(800);
+   // noTone(Get_pin());
+}
+void Buzzer::Buzz_off()
+{
+  noTone(Get_pin());
 }
