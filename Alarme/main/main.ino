@@ -35,7 +35,7 @@ void loop()
  //   buzzer.Buzz();
    // digitalWrite(D5,HIGH);
  // }
- if (motion.isDetect())
+ if (motion==HIGH)
  {
    display.afficher_message("intrus detecte !",2,10,10,SSD1306_WHITE);
    buzzer.Buzz();
@@ -45,6 +45,7 @@ void loop()
    {
      display.clear();
      buzzer.Buzz_off();
+     delay(1000); //Les vibrations suffisent à re-déclancher le capteur
    }
 }
 

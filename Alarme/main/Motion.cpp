@@ -1,19 +1,14 @@
 #include "Motion.hpp"
 #include <ESP8266WiFi.h>
-Motion::Motion()
+
+Motion::Motion() : pinMotion(D5), current_state(0), old_state(0)
 {
-    pinMotion=D5;
-    current_state=0;
-    old_state=0;
     init();
 }
+
 void Motion::init()
 {
     pinMode(pinMotion, INPUT);
-}
-int Motion::Get_pin()
-{
-    return pinMotion;
 }
 int Motion::Get_state_sensor()
 {
@@ -21,16 +16,21 @@ int Motion::Get_state_sensor()
    current_state=digitalRead(Get_pin());
    return old_state, current_state;
 }
-bool Motion::isDetect()
+bool Motion::operator==(int state)
 {
-  int current_state = digitalRead(Get_pin());
-  if(current_state == HIGH)
-  {
-    return true;
-  }
-  else
-  {
-    return false;
-  }
+    return digitalRead(pinMotion) == state;
 }
 
+bool Motion::operator!=(int state)
+{
+    return digitalRead(pinMotion) != state;
+}
+
+bool Motion::isDetect()
+{
+    return digitalRead(pinMotion) == HIGH;
+}
+int Motion::Get_pin() const
+{
+    return pinMotion;
+}
