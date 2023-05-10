@@ -19,7 +19,7 @@ void Wifi::connect(int timeout)
         Serial.print(".");
         if (millis() - start > timeout)
         {
-            Serial.println("Connection timed out");
+            throw timeout;
             return;
         }
     }
