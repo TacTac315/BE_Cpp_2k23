@@ -1,168 +1,180 @@
 \begin{theindex}
 
   \item {$\sim$Display}
-    \subitem {Display}, \hyperpage{12}
+    \subitem {Display}, \hyperpage{15}
   \item {$\sim$Mail}
-    \subitem {Mail}, \hyperpage{14}
+    \subitem {Mail}, \hyperpage{17}
   \item {$\sim$Wifi}
-    \subitem {Wifi}, \hyperpage{20}
+    \subitem {Wifi}, \hyperpage{25}
 
   \indexspace
 
   \item {afficher\_message}
-    \subitem {Display}, \hyperpage{13}
+    \subitem {Display}, \hyperpage{15}
   \item {afficheStatus}
-    \subitem {Wifi}, \hyperpage{20}
+    \subitem {Wifi}, \hyperpage{25}
 
   \indexspace
 
   \item {Bouton}, \hyperpage{7}
     \subitem {Bouton}, \hyperpage{8}
-    \subitem {Get\_pin}, \hyperpage{8}
-    \subitem {Get\_state\_sensor}, \hyperpage{8}
+    \subitem {Get\_pin}, \hyperpage{9}
+    \subitem {Get\_state\_sensor}, \hyperpage{9}
     \subitem {init}, \hyperpage{9}
   \item {Buzz}
-    \subitem {Buzzer}, \hyperpage{10}
-  \item {Buzzer}, \hyperpage{9}
-    \subitem {Buzz}, \hyperpage{10}
-    \subitem {Buzzer}, \hyperpage{10}
-    \subitem {Get\_pin}, \hyperpage{10}
-    \subitem {init}, \hyperpage{11}
+    \subitem {Buzzer}, \hyperpage{12}
+  \item {Buzz\_off}
+    \subitem {Buzzer}, \hyperpage{12}
+  \item {Buzzer}, \hyperpage{10}
+    \subitem {Buzz}, \hyperpage{12}
+    \subitem {Buzz\_off}, \hyperpage{12}
+    \subitem {Buzzer}, \hyperpage{12}
+    \subitem {Get\_pin}, \hyperpage{12}
+    \subitem {init}, \hyperpage{12}
 
   \indexspace
 
   \item {changePassword}
-    \subitem {Wifi}, \hyperpage{20}
+    \subitem {Wifi}, \hyperpage{25}
   \item {changeSsid}
-    \subitem {Wifi}, \hyperpage{20}
+    \subitem {Wifi}, \hyperpage{26}
   \item {clear}
-    \subitem {Display}, \hyperpage{13}
+    \subitem {Display}, \hyperpage{15}
   \item {connect}
-    \subitem {Wifi}, \hyperpage{21}
+    \subitem {Wifi}, \hyperpage{26}
 
   \indexspace
 
   \item {DEFAULT\_MAIL\_PORT}
-    \subitem {Mail.hpp}, \hyperpage{30}
+    \subitem {Mail.hpp}, \hyperpage{36}
   \item {DEFAULT\_MAIL\_RECIPIENT}
-    \subitem {Mail.hpp}, \hyperpage{30}
+    \subitem {Mail.hpp}, \hyperpage{36}
   \item {DEFAULT\_MAIL\_SENDER\_ADRESS}
-    \subitem {Mail.hpp}, \hyperpage{30}
+    \subitem {Mail.hpp}, \hyperpage{36}
   \item {DEFAULT\_MAIL\_SENDER\_PASSWORD}
-    \subitem {Mail.hpp}, \hyperpage{31}
+    \subitem {Mail.hpp}, \hyperpage{37}
   \item {DEFAULT\_MAIL\_SERVER}
-    \subitem {Mail.hpp}, \hyperpage{31}
+    \subitem {Mail.hpp}, \hyperpage{37}
   \item {DEFAULT\_MAIL\_SUBJECT}
-    \subitem {Mail.hpp}, \hyperpage{31}
+    \subitem {Mail.hpp}, \hyperpage{37}
   \item {disconnect}
-    \subitem {Wifi}, \hyperpage{21}
-  \item {Display}, \hyperpage{11}
-    \subitem {$\sim$Display}, \hyperpage{12}
-    \subitem {afficher\_message}, \hyperpage{13}
-    \subitem {clear}, \hyperpage{13}
-    \subitem {Display}, \hyperpage{12}
-    \subitem {init}, \hyperpage{13}
+    \subitem {Wifi}, \hyperpage{26}
+  \item {Display}, \hyperpage{13}
+    \subitem {$\sim$Display}, \hyperpage{15}
+    \subitem {afficher\_message}, \hyperpage{15}
+    \subitem {clear}, \hyperpage{15}
+    \subitem {Display}, \hyperpage{15}
+    \subitem {init}, \hyperpage{16}
 
   \indexspace
 
   \item {Get\_pin}
-    \subitem {Bouton}, \hyperpage{8}
-    \subitem {Buzzer}, \hyperpage{10}
-    \subitem {Motion}, \hyperpage{16}
-    \subitem {Sensor}, \hyperpage{18}
+    \subitem {Bouton}, \hyperpage{9}
+    \subitem {Buzzer}, \hyperpage{12}
+    \subitem {Motion}, \hyperpage{20}
+    \subitem {Sensor}, \hyperpage{23}
   \item {Get\_SSID}
-    \subitem {Wifi}, \hyperpage{21}
+    \subitem {Wifi}, \hyperpage{26}
   \item {Get\_state\_sensor}
-    \subitem {Bouton}, \hyperpage{8}
-    \subitem {Motion}, \hyperpage{16}
-    \subitem {Sensor}, \hyperpage{18}
+    \subitem {Bouton}, \hyperpage{9}
+    \subitem {Motion}, \hyperpage{20}
+    \subitem {Sensor}, \hyperpage{23}
 
   \indexspace
 
   \item {init}
     \subitem {Bouton}, \hyperpage{9}
-    \subitem {Buzzer}, \hyperpage{11}
-    \subitem {Display}, \hyperpage{13}
-    \subitem {Motion}, \hyperpage{16}
-    \subitem {Sensor}, \hyperpage{18}
+    \subitem {Buzzer}, \hyperpage{12}
+    \subitem {Display}, \hyperpage{16}
+    \subitem {Motion}, \hyperpage{20}
+    \subitem {Sensor}, \hyperpage{23}
   \item {isConnected}
-    \subitem {Wifi}, \hyperpage{21}
+    \subitem {Wifi}, \hyperpage{26}
   \item {isDetect}
-    \subitem {Motion}, \hyperpage{17}
+    \subitem {Motion}, \hyperpage{21}
 
   \indexspace
 
-  \item {Mail}, \hyperpage{13}
-    \subitem {$\sim$Mail}, \hyperpage{14}
-    \subitem {Mail}, \hyperpage{14}
-    \subitem {sendMail}, \hyperpage{14}
+  \item {Mail}, \hyperpage{16}
+    \subitem {$\sim$Mail}, \hyperpage{17}
+    \subitem {Mail}, \hyperpage{17}
+    \subitem {sendMail}, \hyperpage{17}
   \item {Mail.hpp}
-    \subitem {DEFAULT\_MAIL\_PORT}, \hyperpage{30}
-    \subitem {DEFAULT\_MAIL\_RECIPIENT}, \hyperpage{30}
-    \subitem {DEFAULT\_MAIL\_SENDER\_ADRESS}, \hyperpage{30}
-    \subitem {DEFAULT\_MAIL\_SENDER\_PASSWORD}, \hyperpage{31}
-    \subitem {DEFAULT\_MAIL\_SERVER}, \hyperpage{31}
-    \subitem {DEFAULT\_MAIL\_SUBJECT}, \hyperpage{31}
-    \subitem {MAX\_MAIL\_ADRESS\_LENGHT}, \hyperpage{31}
-    \subitem {MAX\_MAIL\_PASSWORD\_LENGHT}, \hyperpage{31}
-    \subitem {MAX\_MAIL\_PORT\_LENGHT}, \hyperpage{31}
-    \subitem {MAX\_MAIL\_SERVER\_LENGHT}, \hyperpage{31}
-  \item {main/Bouton.cpp}, \hyperpage{23}
-  \item {main/Bouton.hpp}, \hyperpage{23, 24}
-  \item {main/Buzzer.cpp}, \hyperpage{25}
-  \item {main/Buzzer.hpp}, \hyperpage{25, 26}
-  \item {main/Display.cpp}, \hyperpage{27}
-  \item {main/Display.hpp}, \hyperpage{27, 28}
-  \item {main/Mail.cpp}, \hyperpage{29}
-  \item {main/Mail.hpp}, \hyperpage{29}, \hyperpage{32}
-  \item {main/Motion.cpp}, \hyperpage{32}
-  \item {main/Motion.hpp}, \hyperpage{33}
-  \item {main/Sensor.cpp}, \hyperpage{34}
-  \item {main/Sensor.hpp}, \hyperpage{34, 35}
-  \item {main/Wifi.cpp}, \hyperpage{36}
-  \item {main/Wifi.hpp}, \hyperpage{36}, \hyperpage{38}
+    \subitem {DEFAULT\_MAIL\_PORT}, \hyperpage{36}
+    \subitem {DEFAULT\_MAIL\_RECIPIENT}, \hyperpage{36}
+    \subitem {DEFAULT\_MAIL\_SENDER\_ADRESS}, \hyperpage{36}
+    \subitem {DEFAULT\_MAIL\_SENDER\_PASSWORD}, \hyperpage{37}
+    \subitem {DEFAULT\_MAIL\_SERVER}, \hyperpage{37}
+    \subitem {DEFAULT\_MAIL\_SUBJECT}, \hyperpage{37}
+    \subitem {MAX\_MAIL\_ADRESS\_LENGHT}, \hyperpage{37}
+    \subitem {MAX\_MAIL\_PASSWORD\_LENGHT}, \hyperpage{37}
+    \subitem {MAX\_MAIL\_PORT\_LENGHT}, \hyperpage{37}
+    \subitem {MAX\_MAIL\_SERVER\_LENGHT}, \hyperpage{37}
+  \item {main/Bouton.cpp}, \hyperpage{29}
+  \item {main/Bouton.hpp}, \hyperpage{29, 30}
+  \item {main/Buzzer.cpp}, \hyperpage{31}
+  \item {main/Buzzer.hpp}, \hyperpage{31, 32}
+  \item {main/Display.cpp}, \hyperpage{33}
+  \item {main/Display.hpp}, \hyperpage{33, 34}
+  \item {main/Mail.cpp}, \hyperpage{35}
+  \item {main/Mail.hpp}, \hyperpage{35}, \hyperpage{38}
+  \item {main/Motion.cpp}, \hyperpage{38}
+  \item {main/Motion.hpp}, \hyperpage{39}
+  \item {main/Sensor.cpp}, \hyperpage{40}
+  \item {main/Sensor.hpp}, \hyperpage{41}
+  \item {main/Wifi.cpp}, \hyperpage{42}
+  \item {main/Wifi.hpp}, \hyperpage{42}, \hyperpage{44}
   \item {MAX\_MAIL\_ADRESS\_LENGHT}
-    \subitem {Mail.hpp}, \hyperpage{31}
+    \subitem {Mail.hpp}, \hyperpage{37}
   \item {MAX\_MAIL\_PASSWORD\_LENGHT}
-    \subitem {Mail.hpp}, \hyperpage{31}
+    \subitem {Mail.hpp}, \hyperpage{37}
   \item {MAX\_MAIL\_PORT\_LENGHT}
-    \subitem {Mail.hpp}, \hyperpage{31}
+    \subitem {Mail.hpp}, \hyperpage{37}
   \item {MAX\_MAIL\_SERVER\_LENGHT}
-    \subitem {Mail.hpp}, \hyperpage{31}
+    \subitem {Mail.hpp}, \hyperpage{37}
   \item {MAX\_SSID\_LENGHT}
-    \subitem {Wifi.hpp}, \hyperpage{37}
+    \subitem {Wifi.hpp}, \hyperpage{43}
   \item {MAX\_WPA2\_PWD\_LENGHT}
-    \subitem {Wifi.hpp}, \hyperpage{37}
-  \item {Motion}, \hyperpage{15}
-    \subitem {Get\_pin}, \hyperpage{16}
-    \subitem {Get\_state\_sensor}, \hyperpage{16}
-    \subitem {init}, \hyperpage{16}
-    \subitem {isDetect}, \hyperpage{17}
-    \subitem {Motion}, \hyperpage{16}
+    \subitem {Wifi.hpp}, \hyperpage{43}
+  \item {Motion}, \hyperpage{18}
+    \subitem {Get\_pin}, \hyperpage{20}
+    \subitem {Get\_state\_sensor}, \hyperpage{20}
+    \subitem {init}, \hyperpage{20}
+    \subitem {isDetect}, \hyperpage{21}
+    \subitem {Motion}, \hyperpage{20}
+    \subitem {operator!=}, \hyperpage{21}
+    \subitem {operator==}, \hyperpage{21}
+
+  \indexspace
+
+  \item {operator!=}
+    \subitem {Motion}, \hyperpage{21}
+  \item {operator==}
+    \subitem {Motion}, \hyperpage{21}
 
   \indexspace
 
   \item {sendMail}
-    \subitem {Mail}, \hyperpage{14}
-  \item {Sensor}, \hyperpage{17}
-    \subitem {Get\_pin}, \hyperpage{18}
-    \subitem {Get\_state\_sensor}, \hyperpage{18}
-    \subitem {init}, \hyperpage{18}
+    \subitem {Mail}, \hyperpage{17}
+  \item {Sensor}, \hyperpage{22}
+    \subitem {Get\_pin}, \hyperpage{23}
+    \subitem {Get\_state\_sensor}, \hyperpage{23}
+    \subitem {init}, \hyperpage{23}
 
   \indexspace
 
-  \item {Wifi}, \hyperpage{19}
-    \subitem {$\sim$Wifi}, \hyperpage{20}
-    \subitem {afficheStatus}, \hyperpage{20}
-    \subitem {changePassword}, \hyperpage{20}
-    \subitem {changeSsid}, \hyperpage{20}
-    \subitem {connect}, \hyperpage{21}
-    \subitem {disconnect}, \hyperpage{21}
-    \subitem {Get\_SSID}, \hyperpage{21}
-    \subitem {isConnected}, \hyperpage{21}
-    \subitem {Wifi}, \hyperpage{19}
+  \item {Wifi}, \hyperpage{24}
+    \subitem {$\sim$Wifi}, \hyperpage{25}
+    \subitem {afficheStatus}, \hyperpage{25}
+    \subitem {changePassword}, \hyperpage{25}
+    \subitem {changeSsid}, \hyperpage{26}
+    \subitem {connect}, \hyperpage{26}
+    \subitem {disconnect}, \hyperpage{26}
+    \subitem {Get\_SSID}, \hyperpage{26}
+    \subitem {isConnected}, \hyperpage{26}
+    \subitem {Wifi}, \hyperpage{25}
   \item {Wifi.hpp}
-    \subitem {MAX\_SSID\_LENGHT}, \hyperpage{37}
-    \subitem {MAX\_WPA2\_PWD\_LENGHT}, \hyperpage{37}
+    \subitem {MAX\_SSID\_LENGHT}, \hyperpage{43}
+    \subitem {MAX\_WPA2\_PWD\_LENGHT}, \hyperpage{43}
 
 \end{theindex}

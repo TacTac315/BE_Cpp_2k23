@@ -19,6 +19,16 @@ Graphe d\textquotesingle{}héritage de Motion\+:
 \includegraphics[width=202pt]{class_motion__inherit__graph}
 \end{center}
 \end{figure}
+
+
+Graphe de collaboration de Motion\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{class_motion__coll__graph}
+\end{center}
+\end{figure}
 \doxysubsection*{Fonctions membres publiques}
 \begin{DoxyCompactItemize}
 \item 
@@ -26,12 +36,17 @@ Graphe d\textquotesingle{}héritage de Motion\+:
 \begin{DoxyCompactList}\small\item\em Constructeur par défaut de la classe \mbox{\hyperlink{class_motion}{Motion}}. \end{DoxyCompactList}\item 
 virtual void \mbox{\hyperlink{class_motion_a2ecc42f883bea9870164e2076bb0b099}{init}} ()
 \begin{DoxyCompactList}\small\item\em Initialisation du capteur de mouvement, appellé par le constructeur. \end{DoxyCompactList}\item 
-virtual int \mbox{\hyperlink{class_motion_ad39f8ee9a1989a16e11459422d9b505c}{Get\+\_\+pin}} ()
+virtual int \mbox{\hyperlink{class_motion_a8811b5b3a9b2fb931a8b8e55f98bd1a1}{Get\+\_\+pin}} () const
 \begin{DoxyCompactList}\small\item\em Récupération du pin du capteur de mouvement. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_motion_a69336cffa5613ab933354e8883c61d9c}{Get\+\_\+state\+\_\+sensor}} ()
 \begin{DoxyCompactList}\small\item\em Récupération de l\textquotesingle{}état du capteur de mouvement. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_motion_a89b3436c4acefccedcc35615884022bd}{is\+Detect}} ()
-\begin{DoxyCompactList}\small\item\em Detection d\textquotesingle{}un mouvement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Detection d\textquotesingle{}un mouvement. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_motion_a1774549142e4ee52494191a2f3c75eb5}{operator==}} (int state)
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}opérateur ==. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_motion_aa7c785bafa6abaa9bc040707d973d961}{operator!=}} (int state)
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}opérateur !=. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Fonctions membres publiques hérités de \mbox{\hyperlink{class_sensor}{Sensor}}}
 \begin{DoxyCompactItemize}
 \item 
 virtual void \mbox{\hyperlink{class_sensor_a84bc35cfba92eb579bc311b3c8b2980d}{init}} ()
@@ -64,11 +79,11 @@ Constructeur par défaut de la classe \mbox{\hyperlink{class_motion}{Motion}}.
 
 
 \doxysubsection{Documentation des fonctions membres}
-\mbox{\Hypertarget{class_motion_ad39f8ee9a1989a16e11459422d9b505c}\label{class_motion_ad39f8ee9a1989a16e11459422d9b505c}} 
+\mbox{\Hypertarget{class_motion_a8811b5b3a9b2fb931a8b8e55f98bd1a1}\label{class_motion_a8811b5b3a9b2fb931a8b8e55f98bd1a1}} 
 \index{Motion@{Motion}!Get\_pin@{Get\_pin}}
 \index{Get\_pin@{Get\_pin}!Motion@{Motion}}
 \doxysubsubsection{\texorpdfstring{Get\_pin()}{Get\_pin()}}
-{\footnotesize\ttfamily int Motion\+::\+Get\+\_\+pin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily int Motion\+::\+Get\+\_\+pin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
@@ -77,10 +92,6 @@ Récupération du pin du capteur de mouvement.
 \begin{DoxyReturn}{Renvoie}
 Le pin du capteur de mouvement. 
 \end{DoxyReturn}
-
-
-Réimplémentée à partir de \mbox{\hyperlink{class_sensor_a31a5f32b9210f21e5b3979609ce1c7eb}{Sensor}}.
-
 \mbox{\Hypertarget{class_motion_a69336cffa5613ab933354e8883c61d9c}\label{class_motion_a69336cffa5613ab933354e8883c61d9c}} 
 \index{Motion@{Motion}!Get\_state\_sensor@{Get\_state\_sensor}}
 \index{Get\_state\_sensor@{Get\_state\_sensor}!Motion@{Motion}}
@@ -129,6 +140,26 @@ Vrai si un mouvement est détecté
 
 Faux si aucun mouvement n\textquotesingle{}est détecté 
 \end{DoxyReturn}
+\mbox{\Hypertarget{class_motion_aa7c785bafa6abaa9bc040707d973d961}\label{class_motion_aa7c785bafa6abaa9bc040707d973d961}} 
+\index{Motion@{Motion}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Motion@{Motion}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily bool Motion\+::operator!= (\begin{DoxyParamCaption}\item[{int}]{state }\end{DoxyParamCaption})}
+
+
+
+Surcharge de l\textquotesingle{}opérateur !=. 
+
+\mbox{\Hypertarget{class_motion_a1774549142e4ee52494191a2f3c75eb5}\label{class_motion_a1774549142e4ee52494191a2f3c75eb5}} 
+\index{Motion@{Motion}!operator==@{operator==}}
+\index{operator==@{operator==}!Motion@{Motion}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Motion\+::operator== (\begin{DoxyParamCaption}\item[{int}]{state }\end{DoxyParamCaption})}
+
+
+
+Surcharge de l\textquotesingle{}opérateur ==. 
+
 
 
 La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}

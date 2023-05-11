@@ -1,0 +1,4 @@
+<map id="Display" name="Display">
+<area shape="rect" id="node1" title="Classe de l&#39;écran." alt="" coords="5,175,180,340"/>
+<area shape="rect" id="node2" href="$class_sensor.html" title="Classe du capteur." alt="" coords="19,5,166,127"/>
+</map>

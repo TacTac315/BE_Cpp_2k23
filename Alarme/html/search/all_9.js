@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['_7edisplay_0',['~Display',['../class_display.html#ac2607a6bb236c55547a4223d40d85d1f',1,'Display']]],
-  ['_7email_1',['~Mail',['../class_mail.html#a7f59d642ff71033500e1fac06ce9b3b1',1,'Mail']]],
-  ['_7ewifi_2',['~Wifi',['../class_wifi.html#af9c0bb40082e1b5dd2907be907b94418',1,'Wifi']]]
+  ['wifi_0',['Wifi',['../class_wifi.html',1,'Wifi'],['../class_wifi.html#a63b40a234377f5927d2d34d67826a010',1,'Wifi::Wifi()']]],
+  ['wifi_2ecpp_1',['Wifi.cpp',['../_wifi_8cpp.html',1,'']]],
+  ['wifi_2ehpp_2',['Wifi.hpp',['../_wifi_8hpp.html',1,'']]]
 ];

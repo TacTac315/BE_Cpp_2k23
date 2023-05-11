@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="sirene.png"/></td>
   <td id="projectalign">
    <div id="projectname">Alarme connectée
    </div>
@@ -85,7 +86,16 @@ Graphe d'héritage de Motion:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_motion__inherit__graph.png" border="0" usemap="#a_motion_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_motion_inherit__map" id="a_motion_inherit__map">
-<area shape="rect" title="Classe du capteur de mouvement." alt="" coords="5,175,168,311"/>
+<area shape="rect" title="Classe du capteur de mouvement." alt="" coords="5,175,168,384"/>
+<area shape="rect" href="class_sensor.html" title="Classe du capteur." alt="" coords="13,5,160,127"/>
+</map>
+</div>
+<div class="dynheader">
+Graphe de collaboration de Motion:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_motion__coll__graph.png" border="0" usemap="#a_motion_coll__map" alt="Collaboration graph"/></div>
+<map name="a_motion_coll__map" id="a_motion_coll__map">
+<area shape="rect" title="Classe du capteur de mouvement." alt="" coords="5,175,168,384"/>
 <area shape="rect" href="class_sensor.html" title="Classe du capteur." alt="" coords="13,5,160,127"/>
 </map>
 </div>
@@ -98,24 +108,31 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:a2ecc42f883bea9870164e2076bb0b099"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion.html#a2ecc42f883bea9870164e2076bb0b099">init</a> ()</td></tr>
 <tr class="memdesc:a2ecc42f883bea9870164e2076bb0b099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation du capteur de mouvement, appellé par le constructeur.  <br /></td></tr>
 <tr class="separator:a2ecc42f883bea9870164e2076bb0b099"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad39f8ee9a1989a16e11459422d9b505c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion.html#ad39f8ee9a1989a16e11459422d9b505c">Get_pin</a> ()</td></tr>
-<tr class="memdesc:ad39f8ee9a1989a16e11459422d9b505c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupération du pin du capteur de mouvement.  <br /></td></tr>
-<tr class="separator:ad39f8ee9a1989a16e11459422d9b505c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8811b5b3a9b2fb931a8b8e55f98bd1a1"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion.html#a8811b5b3a9b2fb931a8b8e55f98bd1a1">Get_pin</a> () const</td></tr>
+<tr class="memdesc:a8811b5b3a9b2fb931a8b8e55f98bd1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupération du pin du capteur de mouvement.  <br /></td></tr>
+<tr class="separator:a8811b5b3a9b2fb931a8b8e55f98bd1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69336cffa5613ab933354e8883c61d9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion.html#a69336cffa5613ab933354e8883c61d9c">Get_state_sensor</a> ()</td></tr>
 <tr class="memdesc:a69336cffa5613ab933354e8883c61d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupération de l'état du capteur de mouvement.  <br /></td></tr>
 <tr class="separator:a69336cffa5613ab933354e8883c61d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89b3436c4acefccedcc35615884022bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion.html#a89b3436c4acefccedcc35615884022bd">isDetect</a> ()</td></tr>
 <tr class="memdesc:a89b3436c4acefccedcc35615884022bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detection d'un mouvement.  <br /></td></tr>
 <tr class="separator:a89b3436c4acefccedcc35615884022bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84bc35cfba92eb579bc311b3c8b2980d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a84bc35cfba92eb579bc311b3c8b2980d">init</a> ()</td></tr>
-<tr class="memdesc:a84bc35cfba92eb579bc311b3c8b2980d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation du capteur.  <br /></td></tr>
-<tr class="separator:a84bc35cfba92eb579bc311b3c8b2980d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31a5f32b9210f21e5b3979609ce1c7eb"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a31a5f32b9210f21e5b3979609ce1c7eb">Get_pin</a> ()</td></tr>
-<tr class="memdesc:a31a5f32b9210f21e5b3979609ce1c7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupération du pin du capteur.  <br /></td></tr>
-<tr class="separator:a31a5f32b9210f21e5b3979609ce1c7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ce9eb7d972961ff70b659f864e956ee"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a1ce9eb7d972961ff70b659f864e956ee">Get_state_sensor</a> ()</td></tr>
-<tr class="memdesc:a1ce9eb7d972961ff70b659f864e956ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupération de l'état du capteur.  <br /></td></tr>
-<tr class="separator:a1ce9eb7d972961ff70b659f864e956ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1774549142e4ee52494191a2f3c75eb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion.html#a1774549142e4ee52494191a2f3c75eb5">operator==</a> (int state)</td></tr>
+<tr class="memdesc:a1774549142e4ee52494191a2f3c75eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surcharge de l'opérateur ==.  <br /></td></tr>
+<tr class="separator:a1774549142e4ee52494191a2f3c75eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c785bafa6abaa9bc040707d973d961"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion.html#aa7c785bafa6abaa9bc040707d973d961">operator!=</a> (int state)</td></tr>
+<tr class="memdesc:aa7c785bafa6abaa9bc040707d973d961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Surcharge de l'opérateur !=.  <br /></td></tr>
+<tr class="separator:aa7c785bafa6abaa9bc040707d973d961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_sensor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_sensor')"><img src="closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="class_sensor.html">Sensor</a></td></tr>
+<tr class="memitem:a84bc35cfba92eb579bc311b3c8b2980d inherit pub_methods_class_sensor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a84bc35cfba92eb579bc311b3c8b2980d">init</a> ()</td></tr>
+<tr class="memdesc:a84bc35cfba92eb579bc311b3c8b2980d inherit pub_methods_class_sensor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisation du capteur.  <br /></td></tr>
+<tr class="separator:a84bc35cfba92eb579bc311b3c8b2980d inherit pub_methods_class_sensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a5f32b9210f21e5b3979609ce1c7eb inherit pub_methods_class_sensor"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a31a5f32b9210f21e5b3979609ce1c7eb">Get_pin</a> ()</td></tr>
+<tr class="memdesc:a31a5f32b9210f21e5b3979609ce1c7eb inherit pub_methods_class_sensor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupération du pin du capteur.  <br /></td></tr>
+<tr class="separator:a31a5f32b9210f21e5b3979609ce1c7eb inherit pub_methods_class_sensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce9eb7d972961ff70b659f864e956ee inherit pub_methods_class_sensor"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a1ce9eb7d972961ff70b659f864e956ee">Get_state_sensor</a> ()</td></tr>
+<tr class="memdesc:a1ce9eb7d972961ff70b659f864e956ee inherit pub_methods_class_sensor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupération de l'état du capteur.  <br /></td></tr>
+<tr class="separator:a1ce9eb7d972961ff70b659f864e956ee inherit pub_methods_class_sensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><p>Classe du capteur de mouvement. </p>
@@ -141,8 +158,8 @@ Fonctions membres publiques</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Documentation des fonctions membres</h2>
-<a id="ad39f8ee9a1989a16e11459422d9b505c" name="ad39f8ee9a1989a16e11459422d9b505c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad39f8ee9a1989a16e11459422d9b505c">&#9670;&#160;</a></span>Get_pin()</h2>
+<a id="a8811b5b3a9b2fb931a8b8e55f98bd1a1" name="a8811b5b3a9b2fb931a8b8e55f98bd1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8811b5b3a9b2fb931a8b8e55f98bd1a1">&#9670;&#160;</a></span>Get_pin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +171,7 @@ Fonctions membres publiques</h2></td></tr>
           <td class="memname">int Motion::Get_pin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -166,8 +183,6 @@ Fonctions membres publiques</h2></td></tr>
 
 <p>Récupération du pin du capteur de mouvement. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Le pin du capteur de mouvement. </dd></dl>
-
-<p>Réimplémentée à partir de <a class="el" href="class_sensor.html#a31a5f32b9210f21e5b3979609ce1c7eb">Sensor</a>.</p>
 
 </div>
 </div>
@@ -251,6 +266,46 @@ Ancien état du capteur de mouvement. </dd></dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Vrai si un mouvement est détecté </dd>
 <dd>
 Faux si aucun mouvement n'est détecté </dd></dl>
+
+</div>
+</div>
+<a id="aa7c785bafa6abaa9bc040707d973d961" name="aa7c785bafa6abaa9bc040707d973d961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c785bafa6abaa9bc040707d973d961">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Motion::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Surcharge de l'opérateur !=. </p>
+
+</div>
+</div>
+<a id="a1774549142e4ee52494191a2f3c75eb5" name="a1774549142e4ee52494191a2f3c75eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1774549142e4ee52494191a2f3c75eb5">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Motion::operator== </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Surcharge de l'opérateur ==. </p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  2 MAY 2023 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  11 MAY 2023 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,107 +1026,150 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 pdfTeX warning: pdflatex (file ./class_bouton__inherit__graph.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >
-<class_bouton__inherit__graph.pdf, id=642, 202.7575pt x 299.1175pt>
+<class_bouton__inherit__graph.pdf, id=657, 202.7575pt x 299.1175pt>
 File: class_bouton__inherit__graph.pdf Graphic file (type pdf)
 <use class_bouton__inherit__graph.pdf>
 Package pdftex.def Info: class_bouton__inherit__graph.pdf  used on input line 1
-9.
+8.
 (pdftex.def)             Requested size: 202.0pt x 298.00766pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 22.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 26.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 26.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 26.
-LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 30.
-LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 30.
- [7]
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 51.
-LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 70.
+ <./class_bouton__coll__graph.pdf
 
-Underfull \hbox (badness 10000) detected at line 70
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 87
-[][][]
- []
-
-[8]) (class_buzzer.tex <./class_buzzer__inherit__graph.pdf
-
-pdfTeX warning: pdflatex (file ./class_buzzer__inherit__graph.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./class_bouton__coll__graph.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
 >
-<class_buzzer__inherit__graph.pdf, id=686, 190.7125pt x 299.1175pt>
+<class_bouton__coll__graph.pdf, id=665, 202.7575pt x 299.1175pt>
+File: class_bouton__coll__graph.pdf Graphic file (type pdf)
+<use class_bouton__coll__graph.pdf>
+Package pdftex.def Info: class_bouton__coll__graph.pdf  used on input line 28.
+(pdftex.def)             Requested size: 202.0pt x 298.00766pt.
+ [7]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 31.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 35.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 35.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 35.
+LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 39.
+LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 39.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 60.
+ [8]
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 79.
+
+Underfull \hbox (badness 10000) detected at line 79
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 96
+[][][]
+ []
+
+) (class_buzzer.tex <./class_buzzer__inherit__graph.pdf>
+<class_buzzer__inherit__graph.pdf, id=711, 190.7125pt x 310.15875pt>
 File: class_buzzer__inherit__graph.pdf Graphic file (type pdf)
 <use class_buzzer__inherit__graph.pdf>
 Package pdftex.def Info: class_buzzer__inherit__graph.pdf  used on input line 1
 9.
-(pdftex.def)             Requested size: 190.0pt x 298.01222pt.
- [9]
-Underfull \hbox (badness 10000) detected at line 47
+(pdftex.def)             Requested size: 190.0pt x 309.01268pt.
+ [9] <./class_buzzer__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./class_buzzer__coll__graph.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>
+<class_buzzer__coll__graph.pdf, id=723, 190.7125pt x 310.15875pt>
+File: class_buzzer__coll__graph.pdf Graphic file (type pdf)
+<use class_buzzer__coll__graph.pdf>
+Package pdftex.def Info: class_buzzer__coll__graph.pdf  used on input line 29.
+(pdftex.def)             Requested size: 190.0pt x 309.01268pt.
+ [10] [11]
+Underfull \hbox (badness 10000) detected at line 59
 [][][]
  []
 
-[10]
-Underfull \hbox (badness 10000) detected at line 86
+
+Underfull \hbox (badness 10000) detected at line 104
 [][][]
  []
 
-) (class_display.tex <./class_display__inherit__graph.pdf
+) (class_display.tex [12] <./class_display__inherit__graph.pdf
 
 pdfTeX warning: pdflatex (file ./class_display__inherit__graph.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >
-<class_display__inherit__graph.pdf, id=725, 211.79124pt x 332.24126pt>
+<class_display__inherit__graph.pdf, id=770, 211.79124pt x 332.24126pt>
 File: class_display__inherit__graph.pdf Graphic file (type pdf)
 <use class_display__inherit__graph.pdf>
 Package pdftex.def Info: class_display__inherit__graph.pdf  used on input line 
-19.
+18.
 (pdftex.def)             Requested size: 211.0pt x 331.01358pt.
- [11]
-Underfull \hbox (badness 10000) detected at line 49
+ <./class_display__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./class_display__coll__graph.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>
+<class_display__coll__graph.pdf, id=778, 211.79124pt x 332.24126pt>
+File: class_display__coll__graph.pdf Graphic file (type pdf)
+<use class_display__coll__graph.pdf>
+Package pdftex.def Info: class_display__coll__graph.pdf  used on input line 28.
+
+(pdftex.def)             Requested size: 211.0pt x 331.01358pt.
+ [13] [14]
+Underfull \hbox (badness 10000) detected at line 58
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 82.
-[12]) (class_mail.tex [13]) (class_motion.tex <./class_motion__inherit__graph.p
-df
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 91.
+[15]) (class_mail.tex <./class_mail__coll__graph.pdf
 
-pdfTeX warning: pdflatex (file ./class_motion__inherit__graph.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./class_mail__coll__graph.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
 >
-<class_motion__inherit__graph.pdf, id=791, 202.7575pt x 310.15875pt>
+<class_mail__coll__graph.pdf, id=829, 187.70125pt x 160.6pt>
+File: class_mail__coll__graph.pdf Graphic file (type pdf)
+<use class_mail__coll__graph.pdf>
+Package pdftex.def Info: class_mail__coll__graph.pdf  used on input line 19.
+(pdftex.def)             Requested size: 187.0pt x 160.009pt.
+ [16]) (class_motion.tex <./class_motion__inherit__graph.pdf>
+<class_motion__inherit__graph.pdf, id=860, 202.7575pt x 365.365pt>
 File: class_motion__inherit__graph.pdf Graphic file (type pdf)
 <use class_motion__inherit__graph.pdf>
 Package pdftex.def Info: class_motion__inherit__graph.pdf  used on input line 1
 9.
-(pdftex.def)             Requested size: 202.0pt x 309.00795pt.
- [14] [15]
-Underfull \hbox (badness 10000) detected at line 48
+(pdftex.def)             Requested size: 202.0pt x 364.00937pt.
+ [17] <./class_motion__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./class_motion__coll__graph.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>
+<class_motion__coll__graph.pdf, id=872, 202.7575pt x 365.365pt>
+File: class_motion__coll__graph.pdf Graphic file (type pdf)
+<use class_motion__coll__graph.pdf>
+Package pdftex.def Info: class_motion__coll__graph.pdf  used on input line 29.
+(pdftex.def)             Requested size: 202.0pt x 364.00937pt.
+ [18] [19]
+Underfull \hbox (badness 10000) detected at line 63
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 77
+Underfull \hbox (badness 10000) detected at line 92
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 94
+Underfull \hbox (badness 10000) detected at line 105
 [][][]
  []
 
-[16]
-Underfull \hbox (badness 10000) detected at line 127
+[20]
+Underfull \hbox (badness 10000) detected at line 138
 [][][]
  []
 
@@ -1135,38 +1178,54 @@ Underfull \hbox (badness 10000) detected at line 127
 pdfTeX warning: pdflatex (file ./class_sensor__inherit__graph.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >
-<class_sensor__inherit__graph.pdf, id=835, 619.31375pt x 332.24126pt>
+<class_sensor__inherit__graph.pdf, id=924, 619.31375pt x 365.365pt>
 File: class_sensor__inherit__graph.pdf Graphic file (type pdf)
 <use class_sensor__inherit__graph.pdf>
 Package pdftex.def Info: class_sensor__inherit__graph.pdf  used on input line 1
 9.
-(pdftex.def)             Requested size: 350.0pt x 187.77242pt.
- [17]
-Underfull \hbox (badness 10000) detected at line 47
+(pdftex.def)             Requested size: 350.0pt x 206.49294pt.
+ [21] <./class_sensor__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./class_sensor__coll__graph.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>
+<class_sensor__coll__graph.pdf, id=936, 190.7125pt x 171.64125pt>
+File: class_sensor__coll__graph.pdf Graphic file (type pdf)
+<use class_sensor__coll__graph.pdf>
+Package pdftex.def Info: class_sensor__coll__graph.pdf  used on input line 29.
+(pdftex.def)             Requested size: 190.0pt x 171.00699pt.
+ [22]
+Underfull \hbox (badness 10000) detected at line 57
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 64
-[][][]
- []
-
-) (class_wifi.tex [18] [19]
 Underfull \hbox (badness 10000) detected at line 74
 [][][]
  []
 
-[20]
-Underfull \hbox (badness 10000) detected at line 144
+) (class_wifi.tex <./class_wifi__coll__graph.pdf>
+<class_wifi__coll__graph.pdf, id=965, 211.79124pt x 248.93pt>
+File: class_wifi__coll__graph.pdf Graphic file (type pdf)
+<use class_wifi__coll__graph.pdf>
+Package pdftex.def Info: class_wifi__coll__graph.pdf  used on input line 19.
+(pdftex.def)             Requested size: 211.0pt x 248.01018pt.
+ [23] [24]
+Underfull \hbox (badness 10000) detected at line 84
 [][][]
  []
 
-
-Underfull \hbox (badness 10000) detected at line 157
+[25]
+Underfull \hbox (badness 10000) detected at line 154
 [][][]
  []
 
-) [21] [22
+[26]
+Underfull \hbox (badness 10000) detected at line 167
+[][][]
+ []
+
+) [27] [28
 
 ]
 Chapitre 5.
@@ -1175,26 +1234,26 @@ Chapitre 5.
 pdfTeX warning: pdflatex (file ./_bouton_8cpp__incl.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >
-<_bouton_8cpp__incl.pdf, id=913, 250.9375pt x 264.99pt>
+<_bouton_8cpp__incl.pdf, id=1028, 250.9375pt x 264.99pt>
 File: _bouton_8cpp__incl.pdf Graphic file (type pdf)
 <use _bouton_8cpp__incl.pdf>
-Package pdftex.def Info: _bouton_8cpp__incl.pdf  used on input line 10.
+Package pdftex.def Info: _bouton_8cpp__incl.pdf  used on input line 9.
 (pdftex.def)             Requested size: 250.0pt x 264.01488pt.
 ) (_bouton_8hpp.tex <./_bouton_8hpp__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_bouton_8hpp__incl.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >
-<_bouton_8hpp__incl.pdf, id=921, 170.6375pt x 209.78375pt>
+<_bouton_8hpp__incl.pdf, id=1036, 170.6375pt x 209.78375pt>
 File: _bouton_8hpp__incl.pdf Graphic file (type pdf)
 <use _bouton_8hpp__incl.pdf>
-Package pdftex.def Info: _bouton_8hpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _bouton_8hpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 170.0pt x 209.01176pt.
- [23] <./_bouton_8hpp__dep__incl.pdf>
-<_bouton_8hpp__dep__incl.pdf, id=935, 170.6375pt x 154.5775pt>
+ [29] <./_bouton_8hpp__dep__incl.pdf>
+<_bouton_8hpp__dep__incl.pdf, id=1050, 170.6375pt x 154.5775pt>
 File: _bouton_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use _bouton_8hpp__dep__incl.pdf>
-Package pdftex.def Info: _bouton_8hpp__dep__incl.pdf  used on input line 17.
+Package pdftex.def Info: _bouton_8hpp__dep__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 170.0pt x 154.00865pt.
 ) (_bouton_8hpp_source.tex)
 (_buzzer_8cpp.tex <./_buzzer_8cpp__incl.pdf
@@ -1202,173 +1261,173 @@ Package pdftex.def Info: _bouton_8hpp__dep__incl.pdf  used on input line 17.
 pdfTeX warning: pdflatex (file ./_buzzer_8cpp__incl.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >
-<_buzzer_8cpp__incl.pdf, id=952, 250.9375pt x 264.99pt>
+<_buzzer_8cpp__incl.pdf, id=1067, 250.9375pt x 264.99pt>
 File: _buzzer_8cpp__incl.pdf Graphic file (type pdf)
 <use _buzzer_8cpp__incl.pdf>
-Package pdftex.def Info: _buzzer_8cpp__incl.pdf  used on input line 10.
+Package pdftex.def Info: _buzzer_8cpp__incl.pdf  used on input line 9.
 (pdftex.def)             Requested size: 250.0pt x 264.01488pt.
- [24]) (_buzzer_8hpp.tex <./_buzzer_8hpp__incl.pdf>
-<_buzzer_8hpp__incl.pdf, id=969, 170.6375pt x 209.78375pt>
+ [30]) (_buzzer_8hpp.tex <./_buzzer_8hpp__incl.pdf>
+<_buzzer_8hpp__incl.pdf, id=1084, 170.6375pt x 209.78375pt>
 File: _buzzer_8hpp__incl.pdf Graphic file (type pdf)
 <use _buzzer_8hpp__incl.pdf>
-Package pdftex.def Info: _buzzer_8hpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _buzzer_8hpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 170.0pt x 209.01176pt.
  <./_buzzer_8hpp__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_buzzer_8hpp__dep__incl.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >
-<_buzzer_8hpp__dep__incl.pdf, id=977, 170.6375pt x 154.5775pt>
+<_buzzer_8hpp__dep__incl.pdf, id=1092, 170.6375pt x 154.5775pt>
 File: _buzzer_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use _buzzer_8hpp__dep__incl.pdf>
-Package pdftex.def Info: _buzzer_8hpp__dep__incl.pdf  used on input line 17.
+Package pdftex.def Info: _buzzer_8hpp__dep__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 170.0pt x 154.00865pt.
- [25]) (_buzzer_8hpp_source.tex) (_display_8cpp.tex <./_display_8cpp__incl.pdf>
-<_display_8cpp__incl.pdf, id=1002, 433.62pt x 264.99pt>
+ [31]) (_buzzer_8hpp_source.tex) (_display_8cpp.tex <./_display_8cpp__incl.pdf>
+<_display_8cpp__incl.pdf, id=1118, 433.62pt x 264.99pt>
 File: _display_8cpp__incl.pdf Graphic file (type pdf)
 <use _display_8cpp__incl.pdf>
-Package pdftex.def Info: _display_8cpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _display_8cpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 350.0pt x 213.90077pt.
-) (_display_8hpp.tex [26] <./_display_8hpp__incl.pdf>
-<_display_8hpp__incl.pdf, id=1018, 433.62pt x 209.78375pt>
+) (_display_8hpp.tex [32] <./_display_8hpp__incl.pdf>
+<_display_8hpp__incl.pdf, id=1134, 433.62pt x 209.78375pt>
 File: _display_8hpp__incl.pdf Graphic file (type pdf)
 <use _display_8hpp__incl.pdf>
-Package pdftex.def Info: _display_8hpp__incl.pdf  used on input line 12.
+Package pdftex.def Info: _display_8hpp__incl.pdf  used on input line 11.
 (pdftex.def)             Requested size: 350.0pt x 169.3381pt.
  <./_display_8hpp__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_display_8hpp__dep__incl.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >
-<_display_8hpp__dep__incl.pdf, id=1026, 172.645pt x 154.5775pt>
+<_display_8hpp__dep__incl.pdf, id=1142, 172.645pt x 154.5775pt>
 File: _display_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use _display_8hpp__dep__incl.pdf>
-Package pdftex.def Info: _display_8hpp__dep__incl.pdf  used on input line 20.
+Package pdftex.def Info: _display_8hpp__dep__incl.pdf  used on input line 18.
 (pdftex.def)             Requested size: 172.0pt x 154.00159pt.
- [27]) (_display_8hpp_source.tex) (_mail_8cpp.tex <./_mail_8cpp__incl.pdf>
-<_mail_8cpp__incl.pdf, id=1051, 178.6675pt x 209.78375pt>
+ [33]) (_display_8hpp_source.tex) (_mail_8cpp.tex <./_mail_8cpp__incl.pdf>
+<_mail_8cpp__incl.pdf, id=1167, 178.6675pt x 209.78375pt>
 File: _mail_8cpp__incl.pdf Graphic file (type pdf)
 <use _mail_8cpp__incl.pdf>
-Package pdftex.def Info: _mail_8cpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _mail_8cpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 178.0pt x 209.01176pt.
 )
-(_mail_8hpp.tex [28] <./_mail_8hpp__incl.pdf>
-<_mail_8hpp__incl.pdf, id=1067, 178.6675pt x 154.5775pt>
+(_mail_8hpp.tex [34] <./_mail_8hpp__incl.pdf>
+<_mail_8hpp__incl.pdf, id=1183, 178.6675pt x 154.5775pt>
 File: _mail_8hpp__incl.pdf Graphic file (type pdf)
 <use _mail_8hpp__incl.pdf>
-Package pdftex.def Info: _mail_8hpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _mail_8hpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 178.0pt x 154.00865pt.
  <./_mail_8hpp__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_mail_8hpp__dep__incl.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >
-<_mail_8hpp__dep__incl.pdf, id=1075, 157.58875pt x 154.5775pt>
+<_mail_8hpp__dep__incl.pdf, id=1191, 157.58875pt x 154.5775pt>
 File: _mail_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use _mail_8hpp__dep__incl.pdf>
-Package pdftex.def Info: _mail_8hpp__dep__incl.pdf  used on input line 17.
+Package pdftex.def Info: _mail_8hpp__dep__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 157.0pt x 154.00865pt.
- [29] [30]
+ [35] [36]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 8
-5.
+3.
 
 (C:\Users\vince\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 ))
-(_mail_8hpp_source.tex [31]) (_motion_8cpp.tex <./_motion_8cpp__incl.pdf
+(_mail_8hpp_source.tex [37]) (_motion_8cpp.tex <./_motion_8cpp__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_motion_8cpp__incl.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >
-<_motion_8cpp__incl.pdf, id=1130, 250.9375pt x 264.99pt>
+<_motion_8cpp__incl.pdf, id=1246, 250.9375pt x 264.99pt>
 File: _motion_8cpp__incl.pdf Graphic file (type pdf)
 <use _motion_8cpp__incl.pdf>
-Package pdftex.def Info: _motion_8cpp__incl.pdf  used on input line 10.
+Package pdftex.def Info: _motion_8cpp__incl.pdf  used on input line 9.
 (pdftex.def)             Requested size: 250.0pt x 264.01488pt.
 ) (_motion_8hpp.tex <./_motion_8hpp__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_motion_8hpp__incl.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >
-<_motion_8hpp__incl.pdf, id=1138, 169.63374pt x 209.78375pt>
+<_motion_8hpp__incl.pdf, id=1254, 169.63374pt x 209.78375pt>
 File: _motion_8hpp__incl.pdf Graphic file (type pdf)
 <use _motion_8hpp__incl.pdf>
-Package pdftex.def Info: _motion_8hpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _motion_8hpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 169.0pt x 209.00856pt.
- [32] <./_motion_8hpp__dep__incl.pdf>
-<_motion_8hpp__dep__incl.pdf, id=1152, 169.63374pt x 154.5775pt>
+ [38] <./_motion_8hpp__dep__incl.pdf>
+<_motion_8hpp__dep__incl.pdf, id=1268, 169.63374pt x 154.5775pt>
 File: _motion_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use _motion_8hpp__dep__incl.pdf>
-Package pdftex.def Info: _motion_8hpp__dep__incl.pdf  used on input line 17.
+Package pdftex.def Info: _motion_8hpp__dep__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 169.0pt x 154.0063pt.
-) (_motion_8hpp_source.tex [33])
+) (_motion_8hpp_source.tex [39])
 (_sensor_8cpp.tex <./_sensor_8cpp__incl.pdf>
-<_sensor_8cpp__incl.pdf, id=1179, 250.9375pt x 209.78375pt>
+<_sensor_8cpp__incl.pdf, id=1297, 250.9375pt x 209.78375pt>
 File: _sensor_8cpp__incl.pdf Graphic file (type pdf)
 <use _sensor_8cpp__incl.pdf>
-Package pdftex.def Info: _sensor_8cpp__incl.pdf  used on input line 10.
+Package pdftex.def Info: _sensor_8cpp__incl.pdf  used on input line 9.
 (pdftex.def)             Requested size: 250.0pt x 209.01176pt.
 ) (_sensor_8hpp.tex <./_sensor_8hpp__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_sensor_8hpp__incl.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >
-<_sensor_8hpp__incl.pdf, id=1187, 170.6375pt x 154.5775pt>
+<_sensor_8hpp__incl.pdf, id=1305, 170.6375pt x 154.5775pt>
 File: _sensor_8hpp__incl.pdf Graphic file (type pdf)
 <use _sensor_8hpp__incl.pdf>
-Package pdftex.def Info: _sensor_8hpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _sensor_8hpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 170.0pt x 154.00865pt.
- <./_sensor_8hpp__dep__incl.pdf
-
-pdfTeX warning: pdflatex (file ./_sensor_8hpp__dep__incl.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->
-<_sensor_8hpp__dep__incl.pdf, id=1195, 606.265pt x 209.78375pt>
+ [40] <./_sensor_8hpp__dep__incl.pdf>
+<_sensor_8hpp__dep__incl.pdf, id=1319, 606.265pt x 209.78375pt>
 File: _sensor_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use _sensor_8hpp__dep__incl.pdf>
-Package pdftex.def Info: _sensor_8hpp__dep__incl.pdf  used on input line 17.
+Package pdftex.def Info: _sensor_8hpp__dep__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 350.0pt x 121.11127pt.
- [34]) (_sensor_8hpp_source.tex) (_wifi_8cpp.tex <./_wifi_8cpp__incl.pdf>
-<_wifi_8cpp__incl.pdf, id=1216, 166.6225pt x 209.78375pt>
+) (_sensor_8hpp_source.tex)
+(_wifi_8cpp.tex <./_wifi_8cpp__incl.pdf
+
+pdfTeX warning: pdflatex (file ./_wifi_8cpp__incl.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>
+<_wifi_8cpp__incl.pdf, id=1333, 166.6225pt x 209.78375pt>
 File: _wifi_8cpp__incl.pdf Graphic file (type pdf)
 <use _wifi_8cpp__incl.pdf>
-Package pdftex.def Info: _wifi_8cpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _wifi_8cpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 166.0pt x 209.01497pt.
-)
-(_wifi_8hpp.tex [35] <./_wifi_8hpp__incl.pdf>
-<_wifi_8hpp__incl.pdf, id=1232, 166.6225pt x 154.5775pt>
+) (_wifi_8hpp.tex [41] <./_wifi_8hpp__incl.pdf>
+<_wifi_8hpp__incl.pdf, id=1350, 166.6225pt x 154.5775pt>
 File: _wifi_8hpp__incl.pdf Graphic file (type pdf)
 <use _wifi_8hpp__incl.pdf>
-Package pdftex.def Info: _wifi_8hpp__incl.pdf  used on input line 9.
+Package pdftex.def Info: _wifi_8hpp__incl.pdf  used on input line 8.
 (pdftex.def)             Requested size: 166.0pt x 154.01102pt.
  <./_wifi_8hpp__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./_wifi_8hpp__dep__incl.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >
-<_wifi_8hpp__dep__incl.pdf, id=1240, 156.585pt x 154.5775pt>
+<_wifi_8hpp__dep__incl.pdf, id=1358, 156.585pt x 154.5775pt>
 File: _wifi_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use _wifi_8hpp__dep__incl.pdf>
-Package pdftex.def Info: _wifi_8hpp__dep__incl.pdf  used on input line 17.
+Package pdftex.def Info: _wifi_8hpp__dep__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 156.0pt x 154.0063pt.
- [36]) (_wifi_8hpp_source.tex [37]) [38] (refman.ind [39
+ [42]) (_wifi_8hpp_source.tex [43]) [44] (refman.ind [45
 
 
 
-] [40
+] [46
 
 ]) (refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: D2E0BA0DEDB9EC6181308AA8B2AA8D9C;22259.
+(rerunfilecheck)             Checksum: F2C56E58AC95493D9B6D7DF204330A14;22798.
  ) 
 Here is how much of TeX's memory you used:
- 20306 strings out of 478584
- 340711 string characters out of 2844402
- 660631 words of memory out of 3000000
- 37795 multiletter control sequences out of 15000+600000
+ 20388 strings out of 478584
+ 343338 string characters out of 2844402
+ 661441 words of memory out of 3000000
+ 37857 multiletter control sequences out of 15000+600000
  525341 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,117p,421b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,16n,117p,421b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/vince/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/vince/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
 0.pfb><C:/Users/vince/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -1380,9 +1439,9 @@ pe1/urw/courier/ucrro8a.pfb><C:/Users/vince/AppData/Local/Programs/MiKTeX/fonts
 nts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/vince/AppData/Local/Programs/MiKTe
 X/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vince/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (46 pages, 720808 bytes).
+Output written on refman.pdf (52 pages, 848161 bytes).
 PDF statistics:
- 1505 PDF objects out of 1728 (max. 8388607)
- 266 named destinations out of 1000 (max. 500000)
- 963 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1631 PDF objects out of 1728 (max. 8388607)
+ 286 named destinations out of 1000 (max. 500000)
+ 1022 words of extra memory for PDF output out of 10000 (max. 10000000)
 
