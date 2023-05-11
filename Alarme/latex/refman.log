@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  11 MAY 2023 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.7)  11 MAY 2023 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,33 +1040,33 @@ pdfTeX warning: pdflatex (file ./class_bouton__coll__graph.pdf): PDF inclusion:
 <class_bouton__coll__graph.pdf, id=665, 202.7575pt x 299.1175pt>
 File: class_bouton__coll__graph.pdf Graphic file (type pdf)
 <use class_bouton__coll__graph.pdf>
-Package pdftex.def Info: class_bouton__coll__graph.pdf  used on input line 28.
+Package pdftex.def Info: class_bouton__coll__graph.pdf  used on input line 27.
 (pdftex.def)             Requested size: 202.0pt x 298.00766pt.
  [7]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 31.
+(Font)              scaled to size 10.79993pt on input line 30.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 35.
+(Font)              scaled to size 8.09995pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 35.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 35.
+(Font)              scaled to size 8.09995pt on input line 34.
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 39.
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 38.
 LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 39.
+(Font)              scaled to size 8.09995pt on input line 38.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 60.
+(Font)              scaled to size 7.19995pt on input line 59.
  [8]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 79.
+(Font)              scaled to size 8.99994pt on input line 78.
 
-Underfull \hbox (badness 10000) detected at line 79
+Underfull \hbox (badness 10000) detected at line 78
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 96
+Underfull \hbox (badness 10000) detected at line 95
 [][][]
  []
 
@@ -1075,7 +1075,7 @@ Underfull \hbox (badness 10000) detected at line 96
 File: class_buzzer__inherit__graph.pdf Graphic file (type pdf)
 <use class_buzzer__inherit__graph.pdf>
 Package pdftex.def Info: class_buzzer__inherit__graph.pdf  used on input line 1
-9.
+8.
 (pdftex.def)             Requested size: 190.0pt x 309.01268pt.
  [9] <./class_buzzer__coll__graph.pdf
 
@@ -1085,15 +1085,15 @@ pdfTeX warning: pdflatex (file ./class_buzzer__coll__graph.pdf): PDF inclusion:
 <class_buzzer__coll__graph.pdf, id=723, 190.7125pt x 310.15875pt>
 File: class_buzzer__coll__graph.pdf Graphic file (type pdf)
 <use class_buzzer__coll__graph.pdf>
-Package pdftex.def Info: class_buzzer__coll__graph.pdf  used on input line 29.
+Package pdftex.def Info: class_buzzer__coll__graph.pdf  used on input line 27.
 (pdftex.def)             Requested size: 190.0pt x 309.01268pt.
  [10] [11]
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 57
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 104
+Underfull \hbox (badness 10000) detected at line 102
 [][][]
  []
 
@@ -1116,16 +1116,16 @@ pdfTeX warning: pdflatex (file ./class_display__coll__graph.pdf): PDF inclusion
 <class_display__coll__graph.pdf, id=778, 211.79124pt x 332.24126pt>
 File: class_display__coll__graph.pdf Graphic file (type pdf)
 <use class_display__coll__graph.pdf>
-Package pdftex.def Info: class_display__coll__graph.pdf  used on input line 28.
+Package pdftex.def Info: class_display__coll__graph.pdf  used on input line 27.
 
 (pdftex.def)             Requested size: 211.0pt x 331.01358pt.
  [13] [14]
-Underfull \hbox (badness 10000) detected at line 58
+Underfull \hbox (badness 10000) detected at line 57
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 91.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 90.
 [15]) (class_mail.tex <./class_mail__coll__graph.pdf
 
 pdfTeX warning: pdflatex (file ./class_mail__coll__graph.pdf): PDF inclusion: m
@@ -1134,14 +1134,14 @@ ultiple pdfs with page group included in a single page
 <class_mail__coll__graph.pdf, id=829, 187.70125pt x 160.6pt>
 File: class_mail__coll__graph.pdf Graphic file (type pdf)
 <use class_mail__coll__graph.pdf>
-Package pdftex.def Info: class_mail__coll__graph.pdf  used on input line 19.
+Package pdftex.def Info: class_mail__coll__graph.pdf  used on input line 18.
 (pdftex.def)             Requested size: 187.0pt x 160.009pt.
  [16]) (class_motion.tex <./class_motion__inherit__graph.pdf>
 <class_motion__inherit__graph.pdf, id=860, 202.7575pt x 365.365pt>
 File: class_motion__inherit__graph.pdf Graphic file (type pdf)
 <use class_motion__inherit__graph.pdf>
 Package pdftex.def Info: class_motion__inherit__graph.pdf  used on input line 1
-9.
+8.
 (pdftex.def)             Requested size: 202.0pt x 364.00937pt.
  [17] <./class_motion__coll__graph.pdf
 
@@ -1151,25 +1151,25 @@ pdfTeX warning: pdflatex (file ./class_motion__coll__graph.pdf): PDF inclusion:
 <class_motion__coll__graph.pdf, id=872, 202.7575pt x 365.365pt>
 File: class_motion__coll__graph.pdf Graphic file (type pdf)
 <use class_motion__coll__graph.pdf>
-Package pdftex.def Info: class_motion__coll__graph.pdf  used on input line 29.
+Package pdftex.def Info: class_motion__coll__graph.pdf  used on input line 27.
 (pdftex.def)             Requested size: 202.0pt x 364.00937pt.
  [18] [19]
-Underfull \hbox (badness 10000) detected at line 63
+Underfull \hbox (badness 10000) detected at line 61
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 92
+Underfull \hbox (badness 10000) detected at line 90
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 105
+Underfull \hbox (badness 10000) detected at line 103
 [][][]
  []
 
 [20]
-Underfull \hbox (badness 10000) detected at line 138
+Underfull \hbox (badness 10000) detected at line 136
 [][][]
  []
 
@@ -1182,7 +1182,7 @@ on: multiple pdfs with page group included in a single page
 File: class_sensor__inherit__graph.pdf Graphic file (type pdf)
 <use class_sensor__inherit__graph.pdf>
 Package pdftex.def Info: class_sensor__inherit__graph.pdf  used on input line 1
-9.
+8.
 (pdftex.def)             Requested size: 350.0pt x 206.49294pt.
  [21] <./class_sensor__coll__graph.pdf
 
@@ -1192,15 +1192,15 @@ pdfTeX warning: pdflatex (file ./class_sensor__coll__graph.pdf): PDF inclusion:
 <class_sensor__coll__graph.pdf, id=936, 190.7125pt x 171.64125pt>
 File: class_sensor__coll__graph.pdf Graphic file (type pdf)
 <use class_sensor__coll__graph.pdf>
-Package pdftex.def Info: class_sensor__coll__graph.pdf  used on input line 29.
+Package pdftex.def Info: class_sensor__coll__graph.pdf  used on input line 27.
 (pdftex.def)             Requested size: 190.0pt x 171.00699pt.
  [22]
-Underfull \hbox (badness 10000) detected at line 57
+Underfull \hbox (badness 10000) detected at line 55
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 74
+Underfull \hbox (badness 10000) detected at line 72
 [][][]
  []
 
@@ -1208,20 +1208,20 @@ Underfull \hbox (badness 10000) detected at line 74
 <class_wifi__coll__graph.pdf, id=965, 211.79124pt x 248.93pt>
 File: class_wifi__coll__graph.pdf Graphic file (type pdf)
 <use class_wifi__coll__graph.pdf>
-Package pdftex.def Info: class_wifi__coll__graph.pdf  used on input line 19.
+Package pdftex.def Info: class_wifi__coll__graph.pdf  used on input line 18.
 (pdftex.def)             Requested size: 211.0pt x 248.01018pt.
  [23] [24]
-Underfull \hbox (badness 10000) detected at line 84
+Underfull \hbox (badness 10000) detected at line 83
 [][][]
  []
 
 [25]
-Underfull \hbox (badness 10000) detected at line 154
+Underfull \hbox (badness 10000) detected at line 153
 [][][]
  []
 
 [26]
-Underfull \hbox (badness 10000) detected at line 167
+Underfull \hbox (badness 10000) detected at line 166
 [][][]
  []
 
