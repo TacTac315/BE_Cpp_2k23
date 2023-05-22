@@ -26,5 +26,5 @@ void Display::clear()
       display->setTextColor(color);
       display->setCursor(x, y);
       display->println(text);
-      display->display();
+      display->display(); 
     }

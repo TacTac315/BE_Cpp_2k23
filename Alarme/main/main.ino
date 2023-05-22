@@ -16,7 +16,7 @@ Bouton bouton;
 Buzzer buzzer;
 Motion motion;
 Display display;
-void setup() {
+void setup() { //Initialisation
   Serial.begin(115200);
   display.init();
   wifi.changeSsid("OPPO Find X2 Lite");
@@ -29,20 +29,20 @@ void setup() {
 }
 
 void loop() {
-  if(err == 1){
+  if(err == 1){ //Si erreur de connexion
     display.afficher_message("WiFi error",2,10,10,SSD1306_WHITE);
   }
-  if (motion == HIGH&& err == 0) {
+  if (motion == HIGH&& err == 0) {//Si mouvement détecté
     display.afficher_message("intrus detecte !", 2, 10, 10, SSD1306_WHITE);
     buzzer.Buzz();
     mail_alerte.sendMail();
   }
-  else if(motion == HIGH&& err == 1) {
+  else if(motion == HIGH&& err == 1) {//Si mouvement détecté et erreur de connexion
     display.afficher_message("WiFi error",2,10,10,SSD1306_WHITE);
     display.afficher_message("intrus detecte", 2, 10, 40, SSD1306_WHITE);
     buzzer.Buzz();
   }
-  if (bouton.Get_state_sensor() == 1) {
+  if (bouton.Get_state_sensor() == 1) {//Si bouton appuyé
     display.clear();
     buzzer.Buzz_off();
     delay(1000);  //Les vibrations suffisent à re-déclancher le capteur
